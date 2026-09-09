@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07152d"/>
+      <stop offset="1" stop-color="#102e55"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" x2="1">
+      <stop offset="0" stop-color="#51cfef"/>
+      <stop offset="0.55" stop-color="#22b8cf"/>
+      <stop offset="1" stop-color="#63e6be"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="520" rx="32" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#d0ebff" stroke-width="1">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/>
+    <path d="M100 0V520M250 0V520M400 0V520M550 0V520M700 0V520M850 0V520M1000 0V520M1150 0V520"/>
+  </g>
+  <g transform="translate(70 120)">
+    <circle cx="110" cy="140" r="28" fill="#0b7285" stroke="#99e9f2" stroke-width="5"/>
+    <circle cx="930" cy="140" r="28" fill="#0b7285" stroke="#99e9f2" stroke-width="5"/>
+    <path d="M140 140 C 240 10, 320 270, 410 140 S 590 10, 680 140 S 850 270, 900 140" fill="none" stroke="url(#wave)" stroke-width="11" filter="url(#glow)"/>
+    <path d="M140 180 C 260 90, 330 230, 430 180 S 620 90, 720 180 S 850 230, 900 180" fill="none" stroke="#74c0fc" stroke-width="4" opacity=".55"/>
+    <g fill="#dff8ff" font-family="Arial, sans-serif" font-size="24">
+      <text x="55" y="220">Mic 1</text>
+      <text x="875" y="220">Mic 2</text>
+    </g>
+  </g>
+  <g transform="translate(420 390)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="360" height="62" rx="31" fill="#0b7285" opacity=".85"/>
+    <text x="180" y="40" text-anchor="middle" fill="#e3fafc" font-size="25" font-weight="700">signal → representation → consumer</text>
+  </g>
+</svg>

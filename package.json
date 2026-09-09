@@ -1,0 +1,19 @@
+{
+  "name": "spatial-audio-understanding-seminar",
+  "description": "Spatial audio understanding seminar: Slidev deck, 27-paper evidence ledger, and red-teamed narrative design.",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --format pdf --per-slide --wait 200 --wait-until networkidle --output spatial-audio-lineage.pdf",
+    "validate": "node scripts/validate.mjs",
+    "lint:slop": "node scripts/anti_slop_lint.mjs"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.19.1",
+    "@slidev/theme-default": "0.25.0",
+    "playwright-chromium": "1.55.0"
+  }
+}

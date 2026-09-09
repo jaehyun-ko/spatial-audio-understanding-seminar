@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520">
+  <defs>
+    <linearGradient id="skin" x1="0" x2="1"><stop stop-color="#f1c7a5"/><stop offset="1" stop-color="#d99b72"/></linearGradient>
+    <linearGradient id="arrow" x1="0" x2="1"><stop stop-color="#339af0"/><stop offset="1" stop-color="#20c997"/></linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="28" fill="#f8fbff"/>
+  <g transform="translate(390 65)">
+    <ellipse cx="90" cy="175" rx="120" ry="160" fill="url(#skin)" stroke="#8d552f" stroke-width="4"/>
+    <path d="M3 140c-62-18-73 93-17 112 36 12 49-29 25-44 39-10 38-58-8-68z" fill="#eab48c" stroke="#8d552f" stroke-width="4"/>
+    <path d="M177 140c62-18 73 93 17 112-36 12-49-29-25-44-39-10-38-58 8-68z" fill="#eab48c" stroke="#8d552f" stroke-width="4"/>
+    <path d="M52 180q38-35 76 0M62 245q28 25 57 0" fill="none" stroke="#7f4f2d" stroke-width="4"/>
+  </g>
+  <g fill="none" stroke="url(#arrow)" stroke-width="8" marker-end="url(#m)">
+    <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#20c997"/></marker></defs>
+    <path d="M140 110C245 80 295 115 370 165"/>
+    <path d="M800 110C710 80 650 115 590 165"/>
+    <path d="M160 410C270 390 325 340 385 280"/>
+    <path d="M790 405C700 390 640 340 580 280"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#12355b" font-weight="700">
+    <text x="75" y="92">front / up</text><text x="770" y="92">back / up</text>
+    <text x="70" y="450">front / down</text><text x="755" y="450">back / down</text>
+  </g>
+  <g transform="translate(40 245)" font-family="Arial, sans-serif">
+    <text x="0" y="0" fill="#495057" font-size="22">각 방향은 서로 다른</text>
+    <text x="0" y="32" fill="#0b7285" font-size="28" font-weight="700">spectral peak / notch</text>
+    <text x="0" y="64" fill="#495057" font-size="22">패턴을 만든다</text>
+  </g>
+</svg>

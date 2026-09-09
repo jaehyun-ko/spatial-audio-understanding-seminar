@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1"><stop stop-color="#d0ebff"/><stop offset="1" stop-color="#99e9f2"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#d3f9d8"/><stop offset="1" stop-color="#b2f2bb"/></linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#4263eb"/></marker>
+  </defs>
+  <rect width="1200" height="520" rx="30" fill="#f8fbff"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(40 62)">
+      <rect width="250" height="120" rx="18" fill="url(#a)" stroke="#228be6" stroke-width="3"/>
+      <text x="125" y="42" text-anchor="middle" font-size="25" font-weight="700" fill="#12355b">Multichannel audio</text>
+      <text x="125" y="78" text-anchor="middle" font-size="20" fill="#495057">LNuDFT + GCC-PHAT</text>
+    </g>
+    <g transform="translate(40 320)">
+      <rect width="250" height="120" rx="18" fill="#fff3bf" stroke="#f08c00" stroke-width="3"/>
+      <text x="125" y="42" text-anchor="middle" font-size="25" font-weight="700" fill="#5f3c00">Mic geometry</text>
+      <text x="125" y="78" text-anchor="middle" font-size="20" fill="#6c5d35">relative MPE</text>
+    </g>
+    <g transform="translate(415 180)">
+      <rect width="310" height="150" rx="22" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="4"/>
+      <text x="155" y="50" text-anchor="middle" font-size="28" font-weight="700" fill="#12355b">AuGeonet</text>
+      <text x="155" y="88" text-anchor="middle" font-size="22" fill="#495057">Audio–Geometry</text>
+      <text x="155" y="118" text-anchor="middle" font-size="22" fill="#495057">representation A</text>
+    </g>
+    <g transform="translate(830 50)">
+      <rect width="285" height="120" rx="18" fill="url(#g)" stroke="#2f9e44" stroke-width="3"/>
+      <text x="142" y="42" text-anchor="middle" font-size="25" font-weight="700" fill="#1b4332">Candidate DOA grid</text>
+      <text x="142" y="78" text-anchor="middle" font-size="20" fill="#495057">Gridnet → G</text>
+    </g>
+    <g transform="translate(825 320)">
+      <rect width="300" height="130" rx="20" fill="#e5dbff" stroke="#7048e8" stroke-width="4"/>
+      <text x="150" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#3b2a78">Spatial spectrum</text>
+      <text x="150" y="82" text-anchor="middle" font-size="21" fill="#495057">A · G</text>
+      <text x="150" y="110" text-anchor="middle" font-size="21" fill="#495057">→ DOA</text>
+    </g>
+    <path d="M290 122H405" stroke="#4263eb" stroke-width="5" marker-end="url(#arr)"/>
+    <path d="M290 380C345 380 365 320 415 290" stroke="#4263eb" stroke-width="5" fill="none" marker-end="url(#arr)"/>
+    <path d="M725 255C785 255 790 110 830 110" stroke="#4263eb" stroke-width="5" fill="none" marker-end="url(#arr)"/>
+    <path d="M725 255C785 255 790 380 825 380" stroke="#4263eb" stroke-width="5" fill="none" marker-end="url(#arr)"/>
+    <path d="M972 170V310" stroke="#4263eb" stroke-width="5" marker-end="url(#arr)"/>
+  </g>
+</svg>
