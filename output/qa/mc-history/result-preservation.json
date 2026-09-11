@@ -1,0 +1,820 @@
+{
+  "revision": "mc-audio-lm-history",
+  "checkedAt": "2026-09-11",
+  "scope": "Read-only source, current-order, speaker-note and SVG-label audit; does not itself certify exported PPT/PDF rendering.",
+  "baseline": "output/qa/localization/result-preservation.json",
+  "sourceSha256": "ef4f04729dd10ff6a7feda5b85f4f1a0e7fd3ce87819f8db5896765b1f77fcc6",
+  "orderSha256": "e5952eaefde26d64ee1bbd6f60e333bd229e9c8b8fe287543034aa34869b28bd",
+  "valueDataSha256": "9e8f64bb01c8f5f1c626cfcaa19be8cbc9b6b512ade4252be65d3834f371e9cf",
+  "charts": [
+    {
+      "origin": 11,
+      "previous": 13,
+      "current": 13,
+      "appendix": false,
+      "values": 2,
+      "reportedValues": [
+        "1.19",
+        "0.77"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-11.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-11.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "4b3e51d5921220e90b429825e1954a4d2303b1a58369c1b280413e691b9e8606",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 14,
+      "previous": 51,
+      "current": 55,
+      "appendix": true,
+      "values": 4,
+      "reportedValues": [
+        "21.18",
+        "45.51",
+        "19.05",
+        "54.13"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-14.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-14.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "1543be23e17115f8e46968677ba23fcb9e1049083d4184366b6fef009f33fe13",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 19,
+      "previous": 19,
+      "current": 21,
+      "appendix": false,
+      "values": 4,
+      "reportedValues": [
+        "23.6",
+        "83.1",
+        "33.0",
+        "13.2"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-19.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-19.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "db28411c3474de82ee0892d6abb6bcc623168d80a9b8142c7646d977ab8c8d2e",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 21,
+      "previous": 56,
+      "current": 60,
+      "appendix": true,
+      "values": 2,
+      "reportedValues": [
+        "0.40",
+        "0.28"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-21.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-21.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "ec79f5e526c5f3d7bc3d4e299136624816e96d71093d24a91bddafe81e509931",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 27,
+      "previous": 59,
+      "current": 66,
+      "appendix": true,
+      "values": 2,
+      "reportedValues": [
+        "0.708",
+        "0.624"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-27.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-27.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "f1fbc7d2a6c2e7213a12eacc58ad1923ffaae2ebcd27bd73e70cd4b6e658b936",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 33,
+      "previous": 60,
+      "current": 67,
+      "appendix": true,
+      "values": 3,
+      "reportedValues": [
+        "92.0",
+        "92.8",
+        "35.8"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-33.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-33.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "e10c3d9251c6cc59c782d3a96cf442de56b0b7a8d305bb135ef27ccf2771613a",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 35,
+      "previous": 24,
+      "current": 64,
+      "appendix": true,
+      "values": 6,
+      "reportedValues": [
+        "9.1",
+        "9.6",
+        "1.8",
+        "10.5",
+        "10.4",
+        "1.6"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-35.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-35.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "625ac8882df475b914b55df659abb5cc6fdcf6db0ec83523677ee7475864327c",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 37,
+      "previous": 62,
+      "current": 69,
+      "appendix": true,
+      "values": 4,
+      "reportedValues": [
+        "0.98",
+        "0.96",
+        "2.10",
+        "0.83"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-37.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-37.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "18f8708c40a8d4005073b633a0e87e613d52c00e0c02b9feac51be6b9798f928",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 39,
+      "previous": 76,
+      "current": 23,
+      "appendix": false,
+      "values": 2,
+      "reportedValues": [
+        "54.48",
+        "76.89"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-39.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-39.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "611d9faad6f1094b447196eeb2adde1367ed4235edabb11923f2495812e6972f",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 41,
+      "previous": 37,
+      "current": 25,
+      "appendix": false,
+      "values": 6,
+      "reportedValues": [
+        "34.80",
+        "53.40",
+        "74.04",
+        "37.35",
+        "48.51",
+        "76.56"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-41.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-41.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "ccc40b33a0d26eed51b3267a679bb5e35a4cbd0dff68e92323c18b0f4571f93e",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 44,
+      "previous": 39,
+      "current": 26,
+      "appendix": false,
+      "values": 4,
+      "reportedValues": [
+        "26.32",
+        "17.11",
+        "21.67",
+        "14.32"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-44.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-44.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "01969d298b8d89e9c41c34de64b91e4f922cf76ba68af18dbb4e654dbcd9f5b4",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 46,
+      "previous": 66,
+      "current": 75,
+      "appendix": true,
+      "values": 4,
+      "reportedValues": [
+        "99.5",
+        "37.9",
+        "99.0",
+        "97.1"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-46.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-46.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "edb7fd05d4f8e641ef11e4be7781576bbfe6056dd954cd58aca13aa2d523d791",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 48,
+      "previous": 40,
+      "current": 31,
+      "appendix": false,
+      "values": 4,
+      "reportedValues": [
+        "48.44",
+        "53.91",
+        "76.76",
+        "73.83"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-48.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-48.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "f8163a3e47ce83d43cc7a66d0d6909e11675b95d6c1fc80a5424617b9c1d57eb",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 55,
+      "previous": 32,
+      "current": 33,
+      "appendix": false,
+      "values": 6,
+      "reportedValues": [
+        "13.06",
+        "40.69",
+        "47.15",
+        "76.38",
+        "66.81",
+        "72.97"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-55.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-55.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "ea73566302d1772e0878b732d84cbc009695d00f3898a36381c6b70758882a9b",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 58,
+      "previous": 34,
+      "current": 36,
+      "appendix": false,
+      "values": 6,
+      "reportedValues": [
+        "65.19",
+        "70.61",
+        "51.19",
+        "63.64",
+        "69.89",
+        "79.76"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-58.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-58.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "9deda6aabb275104ddc176f65837f6dc79383979e53360c522a300afe3854b73",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 60,
+      "previous": 74,
+      "current": 27,
+      "appendix": false,
+      "values": 4,
+      "reportedValues": [
+        "35.8",
+        "20.7",
+        "26.4",
+        "31.1"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-60.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-60.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "a9abdba02d649a52d6945736fe2aebfa5c4f1d5a5110280609bc1dfb0454cb3b",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 61,
+      "previous": 75,
+      "current": 39,
+      "appendix": false,
+      "values": 6,
+      "reportedValues": [
+        "54.3",
+        "55.0",
+        "56.1",
+        "54.1",
+        "54.0",
+        "54.1"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-61.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-61.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "b20e174ccb1b85bcfd1447b2c57a7ddb3b949c62a6352891c3e0b68edb403eea",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 64,
+      "previous": 28,
+      "current": 41,
+      "appendix": false,
+      "values": 8,
+      "reportedValues": [
+        "80.4",
+        "55.2",
+        "54.3",
+        "63.3",
+        "86.0",
+        "55.8",
+        "60.6",
+        "67.5"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-64.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-64.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "259bd2059bb3288b026e96a039d0ed3d1cd5d9f5f441d043ccc8fef55588c1a1",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 66,
+      "previous": 64,
+      "current": 71,
+      "appendix": true,
+      "values": 2,
+      "reportedValues": [
+        "5.84",
+        "8.10"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-66.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-66.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "4a21d8ea34e7d2cbb28c4676402d4be4b443b44e7b94bac2fff6e8463fcff9fd",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 69,
+      "previous": 77,
+      "current": 82,
+      "appendix": true,
+      "values": 6,
+      "reportedValues": [
+        "33.33",
+        "33.33",
+        "33.33",
+        "40.87",
+        "48.97",
+        "45.28"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-69.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-69.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "473c0c02b9626091b513d9bbfe663991d7d8faf78541c0a50627174307f3b2eb",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 71,
+      "previous": 45,
+      "current": 47,
+      "appendix": false,
+      "values": 2,
+      "reportedValues": [
+        "85.4",
+        "93.9"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-71.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-71.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "b73c4ffa8f74db8ee855011fbdcbd0561a691dc8cc14a046c6f386f7d7359af2",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 75,
+      "previous": 44,
+      "current": 46,
+      "appendix": false,
+      "values": 4,
+      "reportedValues": [
+        "6.8*",
+        "7.0*",
+        "2.1*",
+        "0.5*"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-75.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": true,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-75.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "e09c17c998c045be9035c592bc2fa22bb8941f443d3e9fff3c56e98ece25b3a7",
+          "allLabelValuesPresent": true,
+          "missingLabelValues": {}
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true
+    },
+    {
+      "origin": 76,
+      "previous": 80,
+      "current": 85,
+      "appendix": true,
+      "values": 8,
+      "reportedValues": [
+        "100",
+        "0",
+        "100",
+        "0",
+        "100",
+        "0",
+        "50",
+        "25"
+      ],
+      "sourceAssetPaths": [
+        "/diagrams/result-76.svg"
+      ],
+      "assetsPreserved": true,
+      "noteValuesPresent": true,
+      "svgLabelValuesPresent": false,
+      "missingNoteValues": {},
+      "assets": [
+        {
+          "path": "/diagrams/result-76.svg",
+          "exists": true,
+          "referencedInSlide": true,
+          "sha256": "2f374902efaba2040cc756ad9c97ea370425ad6208edd082a2dd257631497f68",
+          "allLabelValuesPresent": false,
+          "missingLabelValues": {
+            "0": {
+              "expected": 3,
+              "found": 1
+            }
+          }
+        }
+      ],
+      "svgGeneratorDataMatchesSource": true,
+      "svgValuesRepresented": true,
+      "zeroLabelPolicy": "The stacked chart intentionally omits numeric labels and segments for zero-valued categories; all three zero reversal values are retained in notes and source data.",
+      "stackedGeometryValues": [
+        [
+          99.99999999999997,
+          0
+        ],
+        [
+          99.99999999999997,
+          0
+        ],
+        [
+          99.99999999999997,
+          0
+        ],
+        [
+          50.0,
+          24.99999999999999
+        ]
+      ]
+    }
+  ],
+  "totalCharts": 23,
+  "totalValues": 99,
+  "allAssetsPreserved": true,
+  "allNoteValuesPresent": true,
+  "allSVGLabelValuesPresent": false,
+  "additionalReportedAdapterValues": 3,
+  "adapterCurrentSlide": 35,
+  "adapter": {
+    "reportedValues": [
+      "39.20",
+      "46.40",
+      "52.10"
+    ],
+    "source": "https://arxiv.org/html/2601.02954v3",
+    "table": "Appendix G Table 15",
+    "sourceAssetPath": "/diagrams/causal-module-evidence.svg",
+    "assetSha256": "3a82b050a04692beae4288cb1091ecfe601ab1f98407cb99f16a828e6dd30070",
+    "assetReferencedInSlide": true,
+    "noteValuesPresent": true,
+    "svgLabelValuesPresent": true,
+    "missingNoteValues": {},
+    "missingLabelValues": {},
+    "scoring": "Semantic-answer judge (Gemini 3 Flash), reported Overall on ASA; before final SAPO; not exact MCQA.",
+    "scope": "Reported projector design comparison. Complete matching of encoder/LLM checkpoint, training budget, and seed is not explicitly documented.",
+    "arithmeticCaveat": "Weighted reconstruction using published level sizes does not match reported Overall. Preserve reported values and do not infer counts."
+  },
+  "limitations": [
+    "The previous audit did not include baseline asset byte hashes. Asset preservation means the same referenced files remain active; current hashes are recorded for future byte comparisons.",
+    "The original 99 reported values and the 3 adapter values remain separate evidence sets. No aggregate score was calculated.",
+    "Three zero reversal values in the original O76 stacked chart are encoded by absent segments, so an exact numeric-label count intentionally fails; SVG geometry was decoded and verified against all eight data values."
+  ],
+  "allSVGValuesRepresented": true,
+  "allGeneratorDataMatchesSource": true,
+  "allReportedValuesPreserved": true,
+  "postTransitionCorrectionRecheck": {
+    "date": "2026-09-11",
+    "all23ChartAssetsUnchanged": true,
+    "all99NoteValuesRechecked": true,
+    "all3AdapterValuesRechecked": true,
+    "all10StaleTransitionPhrasesAbsent": true,
+    "slide35ExactMCQALabel": "별도 exact-MCQA"
+  }
+}

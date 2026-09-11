@@ -1,0 +1,4538 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-11T05:31:11.041Z",
+  "url": "http://127.0.0.1:3038/",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "requestedSlides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+  ],
+  "limitations": [
+    "Geometry findings require visual review.",
+    "Global page numbers are recorded but excluded from content overlap checks.",
+    "Intentional source/note positioning is allowed; intersecting text/visual bounds are review candidates.",
+    "Only the initial click state is captured.",
+    "CSS background images, raster-internal text, SVG-internal clipping, and arbitrary body-body overlaps are not exhaustively checked."
+  ],
+  "slides": [
+    {
+      "number": 1,
+      "url": "http://127.0.0.1:3038/?qa-slide=1#/1",
+      "readinessWarnings": [],
+      "title": "공간 소리를 듣고 판단하는 모델",
+      "headings": [
+        "공간 소리를 듣고 판단하는 모델"
+      ],
+      "actualSlide": 1,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "1",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": null,
+        "takeaway": null,
+        "source": 1
+      },
+      "screenshot": "slide-01.png",
+      "findingCount": 0
+    },
+    {
+      "number": 2,
+      "url": "http://127.0.0.1:3038/?qa-slide=2#/2",
+      "readinessWarnings": [],
+      "title": "공간 오디오 이해의 목표",
+      "headings": [
+        "공간 오디오 이해의 목표"
+      ],
+      "actualSlide": 2,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 1,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "2",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-02.png",
+      "findingCount": 0
+    },
+    {
+      "number": 3,
+      "url": "http://127.0.0.1:3038/?qa-slide=3#/3",
+      "readinessWarnings": [],
+      "title": "두 채널 관측 신호",
+      "headings": [
+        "두 채널 관측 신호"
+      ],
+      "actualSlide": 3,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 1,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "3",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-03.png",
+      "findingCount": 0
+    },
+    {
+      "number": 4,
+      "url": "http://127.0.0.1:3038/?qa-slide=4#/4",
+      "readinessWarnings": [],
+      "title": "경로 차이와 시간차",
+      "headings": [
+        "경로 차이와 시간차"
+      ],
+      "actualSlide": 4,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 1,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "4",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-04.png",
+      "findingCount": 0
+    },
+    {
+      "number": 5,
+      "url": "http://127.0.0.1:3038/?qa-slide=5#/5",
+      "readinessWarnings": [],
+      "title": "잔향과 음원 혼합",
+      "headings": [
+        "잔향과 음원 혼합"
+      ],
+      "actualSlide": 5,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 1,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "5",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-05.png",
+      "findingCount": 0
+    },
+    {
+      "number": 6,
+      "url": "http://127.0.0.1:3038/?qa-slide=6#/6",
+      "readinessWarnings": [],
+      "title": "마이크 배열 기하",
+      "headings": [
+        "마이크 배열 기하"
+      ],
+      "actualSlide": 6,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 1,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "6",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-06.png",
+      "findingCount": 0
+    },
+    {
+      "number": 7,
+      "url": "http://127.0.0.1:3038/?qa-slide=7#/7",
+      "readinessWarnings": [],
+      "title": "GCC-PHAT: 두 신호에서 시간차를 찾는다",
+      "headings": [
+        "GCC-PHAT: 두 신호에서 시간차를 찾는다"
+      ],
+      "actualSlide": 7,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "7",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-07.png",
+      "findingCount": 0
+    },
+    {
+      "number": 8,
+      "url": "http://127.0.0.1:3038/?qa-slide=8#/8",
+      "readinessWarnings": [],
+      "title": "지연 하나에 대응하는 좌표는 여러 개다",
+      "headings": [
+        "지연 하나에 대응하는 좌표는 여러 개다"
+      ],
+      "actualSlide": 8,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "8",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-08.png",
+      "findingCount": 0
+    },
+    {
+      "number": 9,
+      "url": "http://127.0.0.1:3038/?qa-slide=9#/9",
+      "readinessWarnings": [],
+      "title": "후보 좌표가 예측한 지연에서 상관값을 읽는다",
+      "headings": [
+        "후보 좌표가 예측한 지연에서 상관값을 읽는다"
+      ],
+      "actualSlide": 9,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "9",
+          "rect": {
+            "x": 1207.66,
+            "y": 681,
+            "width": 8.34,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-09.png",
+      "findingCount": 0
+    },
+    {
+      "number": 10,
+      "url": "http://127.0.0.1:3038/?qa-slide=10#/10",
+      "readinessWarnings": [],
+      "title": "쌍별 응답을 합하고 가장 높은 좌표를 고른다",
+      "headings": [
+        "쌍별 응답을 합하고 가장 높은 좌표를 고른다"
+      ],
+      "actualSlide": 10,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "10",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-10.png",
+      "findingCount": 0
+    },
+    {
+      "number": 11,
+      "url": "http://127.0.0.1:3038/?qa-slide=11#/11",
+      "readinessWarnings": [],
+      "title": "Neural-SRP: 쌍별 공간 응답을 학습한다",
+      "headings": [
+        "Neural-SRP: 쌍별 공간 응답을 학습한다"
+      ],
+      "actualSlide": 11,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "11",
+          "rect": {
+            "x": 1200.42,
+            "y": 681,
+            "width": 15.58,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-11.png",
+      "findingCount": 0
+    },
+    {
+      "number": 12,
+      "url": "http://127.0.0.1:3038/?qa-slide=12#/12",
+      "readinessWarnings": [],
+      "title": "학습한 쌍별 응답을 합치면 위치 피크가 달라진다",
+      "headings": [
+        "학습한 쌍별 응답을 합치면 위치 피크가 달라진다"
+      ],
+      "actualSlide": 12,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "12",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-12.png",
+      "findingCount": 0
+    },
+    {
+      "number": 13,
+      "url": "http://127.0.0.1:3038/?qa-slide=13#/13",
+      "readinessWarnings": [],
+      "title": "학습한 응답의 효과는 실녹음 적응 조건에서 확인한다",
+      "headings": [
+        "학습한 응답의 효과는 실녹음 적응 조건에서 확인한다"
+      ],
+      "actualSlide": 13,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "13",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-13.png",
+      "findingCount": 0
+    },
+    {
+      "number": 14,
+      "url": "http://127.0.0.1:3038/?qa-slide=14#/14",
+      "readinessWarnings": [],
+      "title": "좌표 다음에 무엇을 전달해야 하는가?",
+      "headings": [
+        "좌표 다음에 무엇을 전달해야 하는가?"
+      ],
+      "actualSlide": 14,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "14",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-14.png",
+      "findingCount": 0
+    },
+    {
+      "number": 15,
+      "url": "http://127.0.0.1:3038/?qa-slide=15#/15",
+      "readinessWarnings": [],
+      "title": "공간 QA에서 기존 Audio-LM 확장과 동적 장면으로",
+      "headings": [
+        "공간 QA에서 기존 Audio-LM 확장과 동적 장면으로"
+      ],
+      "actualSlide": 15,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "15",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-15.png",
+      "findingCount": 0
+    },
+    {
+      "number": 16,
+      "url": "http://127.0.0.1:3038/?qa-slide=16#/16",
+      "readinessWarnings": [],
+      "title": "언어로 기술해 넘길까, 오디오 표현을 직접 연결할까?",
+      "headings": [
+        "언어로 기술해 넘길까, 오디오 표현을 직접 연결할까?"
+      ],
+      "actualSlide": 16,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "16",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-16.png",
+      "findingCount": 0
+    },
+    {
+      "number": 17,
+      "url": "http://127.0.0.1:3038/?qa-slide=17#/17",
+      "readinessWarnings": [],
+      "title": "오디오 표현은 어떻게 LLM의 입력이 되는가",
+      "headings": [
+        "오디오 표현은 어떻게 LLM의 입력이 되는가"
+      ],
+      "actualSlide": 17,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "17",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-17.png",
+      "findingCount": 0
+    },
+    {
+      "number": 18,
+      "url": "http://127.0.0.1:3038/?qa-slide=18#/18",
+      "readinessWarnings": [],
+      "title": "LoRA는 LLM의 입력 처리 방식을 조정한다",
+      "headings": [
+        "LoRA는 LLM의 입력 처리 방식을 조정한다"
+      ],
+      "actualSlide": 18,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "18",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-18.png",
+      "findingCount": 0
+    },
+    {
+      "number": 19,
+      "url": "http://127.0.0.1:3038/?qa-slide=19#/19",
+      "readinessWarnings": [],
+      "title": "LLM 전에 무엇이 읽혀야 하는가?",
+      "headings": [
+        "LLM 전에 무엇이 읽혀야 하는가?"
+      ],
+      "actualSlide": 19,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "19",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-19.png",
+      "findingCount": 0
+    },
+    {
+      "number": 20,
+      "url": "http://127.0.0.1:3038/?qa-slide=20#/20",
+      "readinessWarnings": [],
+      "title": "학습 과제는 어떤 관계를 남기게 하는가?",
+      "headings": [
+        "학습 과제는 어떤 관계를 남기게 하는가?"
+      ],
+      "actualSlide": 20,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "20",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-20.png",
+      "findingCount": 0
+    },
+    {
+      "number": 21,
+      "url": "http://127.0.0.1:3038/?qa-slide=21#/21",
+      "readinessWarnings": [],
+      "title": "사건과 방향이 남았는지는 고정 인코더로 읽어 본다",
+      "headings": [
+        "사건과 방향이 남았는지는 고정 인코더로 읽어 본다"
+      ],
+      "actualSlide": 21,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "21",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-21.png",
+      "findingCount": 0
+    },
+    {
+      "number": 22,
+      "url": "http://127.0.0.1:3038/?qa-slide=22#/22",
+      "readinessWarnings": [],
+      "title": "BAT: 공간 지각의 표현을 질문의 입력으로 바꾼다",
+      "headings": [
+        "BAT: 공간 지각의 표현을 질문의 입력으로 바꾼다"
+      ],
+      "actualSlide": 22,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "22",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-22.png",
+      "findingCount": 0
+    },
+    {
+      "number": 23,
+      "url": "http://127.0.0.1:3038/?qa-slide=23#/23",
+      "readinessWarnings": [],
+      "title": "BAT 2024: 공간 입력은 관계 질문에 기여했는가?",
+      "headings": [
+        "BAT 2024: 공간 입력은 관계 질문에 기여했는가?"
+      ],
+      "actualSlide": 23,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "23",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-23.png",
+      "findingCount": 0
+    },
+    {
+      "number": 24,
+      "url": "http://127.0.0.1:3038/?qa-slide=24#/24",
+      "readinessWarnings": [],
+      "title": "같은 연결 틀에서, 인코더가 배워야 할 것을 바꾼다",
+      "headings": [
+        "같은 연결 틀에서, 인코더가 배워야 할 것을 바꾼다"
+      ],
+      "actualSlide": 24,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "24",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-24.png",
+      "findingCount": 0
+    },
+    {
+      "number": 25,
+      "url": "http://127.0.0.1:3038/?qa-slide=25#/25",
+      "readinessWarnings": [],
+      "title": "DSpAST 2025: 같은 LM 연결에서 인코더를 비교한다",
+      "headings": [
+        "DSpAST 2025: 같은 LM 연결에서 인코더를 비교한다"
+      ],
+      "actualSlide": 25,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "25",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-25.png",
+      "findingCount": 0
+    },
+    {
+      "number": 26,
+      "url": "http://127.0.0.1:3038/?qa-slide=26#/26",
+      "readinessWarnings": [],
+      "title": "OWL 2025: 기하 감독은 위치 추정에 기여했는가?",
+      "headings": [
+        "OWL 2025: 기하 감독은 위치 추정에 기여했는가?"
+      ],
+      "actualSlide": 26,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "26",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-26.png",
+      "findingCount": 0
+    },
+    {
+      "number": 27,
+      "url": "http://127.0.0.1:3038/?qa-slide=27#/27",
+      "readinessWarnings": [],
+      "title": "Motion 2025: 지각 결과를 JSON으로 넘기는 대안",
+      "headings": [
+        "Motion 2025: 지각 결과를 JSON으로 넘기는 대안"
+      ],
+      "actualSlide": 27,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "27",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-27.png",
+      "findingCount": 0
+    },
+    {
+      "number": 28,
+      "url": "http://127.0.0.1:3038/?qa-slide=28#/28",
+      "readinessWarnings": [],
+      "title": "기존 Audio-LM을 살리고 공간 경로를 붙이는 문제",
+      "headings": [
+        "기존 Audio-LM을 살리고 공간 경로를 붙이는 문제"
+      ],
+      "actualSlide": 28,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "28",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-28.png",
+      "findingCount": 0
+    },
+    {
+      "number": 29,
+      "url": "http://127.0.0.1:3038/?qa-slide=29#/29",
+      "readinessWarnings": [],
+      "title": "Sci-Phi 2025: 기존 의미 경로 옆에 공간 경로를 학습한다",
+      "headings": [
+        "Sci-Phi 2025: 기존 의미 경로 옆에 공간 경로를 학습한다"
+      ],
+      "actualSlide": 29,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "29",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-29.png",
+      "findingCount": 0
+    },
+    {
+      "number": 30,
+      "url": "http://127.0.0.1:3038/?qa-slide=30#/30",
+      "readinessWarnings": [],
+      "title": "PhaseCoder: 특정 마이크 배열에 묶이지 않는 공간 입력",
+      "headings": [
+        "PhaseCoder: 특정 마이크 배열에 묶이지 않는 공간 입력"
+      ],
+      "actualSlide": 30,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "30",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-30.png",
+      "findingCount": 0
+    },
+    {
+      "number": 31,
+      "url": "http://127.0.0.1:3038/?qa-slide=31#/31",
+      "readinessWarnings": [],
+      "title": "PhaseCoder: 공간 QA와 목표 발화 전사의 절충",
+      "headings": [
+        "PhaseCoder: 공간 QA와 목표 발화 전사의 절충"
+      ],
+      "actualSlide": 31,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "31",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-31.png",
+      "findingCount": 0
+    },
+    {
+      "number": 32,
+      "url": "http://127.0.0.1:3038/?qa-slide=32#/32",
+      "readinessWarnings": [],
+      "title": "Spatial-Omni: 여러 기반 모델에 공간 경로를 이식한다",
+      "headings": [
+        "Spatial-Omni: 여러 기반 모델에 공간 경로를 이식한다"
+      ],
+      "actualSlide": 32,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "32",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-32.png",
+      "findingCount": 0
+    },
+    {
+      "number": 33,
+      "url": "http://127.0.0.1:3038/?qa-slide=33#/33",
+      "readinessWarnings": [],
+      "title": "Spatial-Omni: 추가한 공간 입력의 기여를 확인한다",
+      "headings": [
+        "Spatial-Omni: 추가한 공간 입력의 기여를 확인한다"
+      ],
+      "actualSlide": 33,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "33",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-33.png",
+      "findingCount": 0
+    },
+    {
+      "number": 34,
+      "url": "http://127.0.0.1:3038/?qa-slide=34#/34",
+      "readinessWarnings": [],
+      "title": "TWNM v3: 의미와 공간을 같은 음원에 묶는다",
+      "headings": [
+        "TWNM v3: 의미와 공간을 같은 음원에 묶는다"
+      ],
+      "actualSlide": 34,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "34",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-34.png",
+      "findingCount": 0
+    },
+    {
+      "number": 35,
+      "url": "http://127.0.0.1:3038/?qa-slide=35#/35",
+      "readinessWarnings": [],
+      "title": "토큰을 결합하는 설계에 따라 결과가 달라졌다",
+      "headings": [
+        "토큰을 결합하는 설계에 따라 결과가 달라졌다"
+      ],
+      "actualSlide": 35,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "35",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-35.png",
+      "findingCount": 0
+    },
+    {
+      "number": 36,
+      "url": "http://127.0.0.1:3038/?qa-slide=36#/36",
+      "readinessWarnings": [],
+      "title": "TWNM v3: 연결 이후에는 답변 학습 목표도 달라진다",
+      "headings": [
+        "TWNM v3: 연결 이후에는 답변 학습 목표도 달라진다"
+      ],
+      "actualSlide": 36,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "36",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-36.png",
+      "findingCount": 0
+    },
+    {
+      "number": 37,
+      "url": "http://127.0.0.1:3038/?qa-slide=37#/37",
+      "readinessWarnings": [],
+      "title": "움직임을 묻기 시작하면 시간 구조가 필요하다",
+      "headings": [
+        "움직임을 묻기 시작하면 시간 구조가 필요하다"
+      ],
+      "actualSlide": 37,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "37",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-37.png",
+      "findingCount": 0
+    },
+    {
+      "number": 38,
+      "url": "http://127.0.0.1:3038/?qa-slide=38#/38",
+      "readinessWarnings": [],
+      "title": "시간 평균은 서로 다른 이동을 같게 만들 수 있다",
+      "headings": [
+        "시간 평균은 서로 다른 이동을 같게 만들 수 있다"
+      ],
+      "actualSlide": 38,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "38",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-38.png",
+      "findingCount": 0
+    },
+    {
+      "number": 39,
+      "url": "http://127.0.0.1:3038/?qa-slide=39#/39",
+      "readinessWarnings": [],
+      "title": "Dynamic QA 2026: 질문에 필요한 시간 구간을 고른다",
+      "headings": [
+        "Dynamic QA 2026: 질문에 필요한 시간 구간을 고른다"
+      ],
+      "actualSlide": 39,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "39",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-39.png",
+      "findingCount": 0
+    },
+    {
+      "number": 40,
+      "url": "http://127.0.0.1:3038/?qa-slide=40#/40",
+      "readinessWarnings": [],
+      "title": "ST-AudioLM 2026: 시간별 음원 상태를 토큰으로 남긴다",
+      "headings": [
+        "ST-AudioLM 2026: 시간별 음원 상태를 토큰으로 남긴다"
+      ],
+      "actualSlide": 40,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "40",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-40.png",
+      "findingCount": 0
+    },
+    {
+      "number": 41,
+      "url": "http://127.0.0.1:3038/?qa-slide=41#/41",
+      "readinessWarnings": [],
+      "title": "ST-AudioLM: 같은 41개 토큰에서도 시간 표현이 다르다",
+      "headings": [
+        "ST-AudioLM: 같은 41개 토큰에서도 시간 표현이 다르다"
+      ],
+      "actualSlide": 41,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "41",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-41.png",
+      "findingCount": 0
+    },
+    {
+      "number": 42,
+      "url": "http://127.0.0.1:3038/?qa-slide=42#/42",
+      "readinessWarnings": [],
+      "title": "읽히는 정보가 답에도 쓰이는가?",
+      "headings": [
+        "읽히는 정보가 답에도 쓰이는가?"
+      ],
+      "actualSlide": 42,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "42",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-42.png",
+      "findingCount": 0
+    },
+    {
+      "number": 43,
+      "url": "http://127.0.0.1:3038/?qa-slide=43#/43",
+      "readinessWarnings": [],
+      "title": "문장으로만 넘기면 공간 단서가 얼마나 남는가?",
+      "headings": [
+        "문장으로만 넘기면 공간 단서가 얼마나 남는가?"
+      ],
+      "actualSlide": 43,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "43",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-43.png",
+      "findingCount": 0
+    },
+    {
+      "number": 44,
+      "url": "http://127.0.0.1:3038/?qa-slide=44#/44",
+      "readinessWarnings": [],
+      "title": "같은 표현에서도 속성마다 읽히는 정도가 다르다",
+      "headings": [
+        "같은 표현에서도 속성마다 읽히는 정도가 다르다"
+      ],
+      "actualSlide": 44,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "44",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-44.png",
+      "findingCount": 0
+    },
+    {
+      "number": 45,
+      "url": "http://127.0.0.1:3038/?qa-slide=45#/45",
+      "readinessWarnings": [],
+      "title": "같은 잡음에서 표적 위상을 바꾸고 표현을 읽는다",
+      "headings": [
+        "같은 잡음에서 표적 위상을 바꾸고 표현을 읽는다"
+      ],
+      "actualSlide": 45,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "45",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-45.png",
+      "findingCount": 0
+    },
+    {
+      "number": 46,
+      "url": "http://127.0.0.1:3038/?qa-slide=46#/46",
+      "readinessWarnings": [],
+      "title": "표현의 단서 반응은 LLM의 답변 사용과 다르다",
+      "headings": [
+        "표현의 단서 반응은 LLM의 답변 사용과 다르다"
+      ],
+      "actualSlide": 46,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "46",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-46.png",
+      "findingCount": 0
+    },
+    {
+      "number": 47,
+      "url": "http://127.0.0.1:3038/?qa-slide=47#/47",
+      "readinessWarnings": [],
+      "title": "현장 응답 대상은 전체 시스템으로 검증한다",
+      "headings": [
+        "현장 응답 대상은 전체 시스템으로 검증한다"
+      ],
+      "actualSlide": 47,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "47",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-47.png",
+      "findingCount": 0
+    },
+    {
+      "number": 48,
+      "url": "http://127.0.0.1:3038/?qa-slide=48#/48",
+      "readinessWarnings": [],
+      "title": "연구사의 공통 질문은 공간 정보가 어디서 사라지는가다",
+      "headings": [
+        "연구사의 공통 질문은 공간 정보가 어디서 사라지는가다"
+      ],
+      "actualSlide": 48,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "48",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-48.png",
+      "findingCount": 0
+    },
+    {
+      "number": 49,
+      "url": "http://127.0.0.1:3038/?qa-slide=49#/49",
+      "readinessWarnings": [],
+      "title": "같은 장면에서 표현·토큰·답을 함께 검사한다",
+      "headings": [
+        "같은 장면에서 표현·토큰·답을 함께 검사한다"
+      ],
+      "actualSlide": 49,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "49",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-49.png",
+      "findingCount": 0
+    },
+    {
+      "number": 50,
+      "url": "http://127.0.0.1:3038/?qa-slide=50#/50",
+      "readinessWarnings": [],
+      "title": "근거 부록",
+      "headings": [
+        "근거 부록"
+      ],
+      "actualSlide": 50,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 0,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "50",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": null,
+        "takeaway": null,
+        "source": 1
+      },
+      "screenshot": "slide-50.png",
+      "findingCount": 0
+    },
+    {
+      "number": 51,
+      "url": "http://127.0.0.1:3038/?qa-slide=51#/51",
+      "readinessWarnings": [],
+      "title": "사전학습 목표와 표현의 재사용 시험을 분리한다",
+      "headings": [
+        "사전학습 목표와 표현의 재사용 시험을 분리한다"
+      ],
+      "actualSlide": 51,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "51",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-51.png",
+      "findingCount": 0
+    },
+    {
+      "number": 52,
+      "url": "http://127.0.0.1:3038/?qa-slide=52#/52",
+      "readinessWarnings": [],
+      "title": "공간 단서를 목표로 배운 초기화는 잡음에서 시험한다",
+      "headings": [
+        "공간 단서를 목표로 배운 초기화는 잡음에서 시험한다"
+      ],
+      "actualSlide": 52,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "52",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-52.png",
+      "findingCount": 0
+    },
+    {
+      "number": 53,
+      "url": "http://127.0.0.1:3038/?qa-slide=53#/53",
+      "readinessWarnings": [],
+      "title": "배열 좌표와 후보 격자는 서로 다른 변경이다",
+      "headings": [
+        "배열 좌표와 후보 격자는 서로 다른 변경이다"
+      ],
+      "actualSlide": 53,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "53",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-53.png",
+      "findingCount": 0
+    },
+    {
+      "number": 54,
+      "url": "http://127.0.0.1:3038/?qa-slide=54#/54",
+      "readinessWarnings": [],
+      "title": "AGG-RL: 기하와 후보 방향의 정합",
+      "headings": [
+        "AGG-RL: 기하와 후보 방향의 정합"
+      ],
+      "actualSlide": 54,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "54",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-54.png",
+      "findingCount": 0
+    },
+    {
+      "number": 55,
+      "url": "http://127.0.0.1:3038/?qa-slide=55#/55",
+      "readinessWarnings": [],
+      "title": "기하 정합의 효과는 미노출 채널 수로 시험한다",
+      "headings": [
+        "기하 정합의 효과는 미노출 채널 수로 시험한다"
+      ],
+      "actualSlide": 55,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "55",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-55.png",
+      "findingCount": 0
+    },
+    {
+      "number": 56,
+      "url": "http://127.0.0.1:3038/?qa-slide=56#/56",
+      "readinessWarnings": [],
+      "title": "입력 형식이 다르면 보존된 단서도 다르다",
+      "headings": [
+        "입력 형식이 다르면 보존된 단서도 다르다"
+      ],
+      "actualSlide": 56,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "56",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-56.png",
+      "findingCount": 0
+    },
+    {
+      "number": 57,
+      "url": "http://127.0.0.1:3038/?qa-slide=57#/57",
+      "readinessWarnings": [],
+      "title": "좌표에 사건 이름까지 붙이면 SELD가 된다",
+      "headings": [
+        "좌표에 사건 이름까지 붙이면 SELD가 된다"
+      ],
+      "actualSlide": 57,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "57",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-57.png",
+      "findingCount": 0
+    },
+    {
+      "number": 58,
+      "url": "http://127.0.0.1:3038/?qa-slide=58#/58",
+      "readinessWarnings": [],
+      "title": "위치 오차는 검출 범위와 함께 읽어야 한다",
+      "headings": [
+        "위치 오차는 검출 범위와 함께 읽어야 한다"
+      ],
+      "actualSlide": 58,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "58",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-58.png",
+      "findingCount": 0
+    },
+    {
+      "number": 59,
+      "url": "http://127.0.0.1:3038/?qa-slide=59#/59",
+      "readinessWarnings": [],
+      "title": "공간 단서를 목표로 정해 인코더를 학습한다",
+      "headings": [
+        "공간 단서를 목표로 정해 인코더를 학습한다"
+      ],
+      "actualSlide": 59,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "59",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-59.png",
+      "findingCount": 0
+    },
+    {
+      "number": 60,
+      "url": "http://127.0.0.1:3038/?qa-slide=60#/60",
+      "readinessWarnings": [],
+      "title": "복원이 모든 물리량의 보존을 보장하지는 않는다",
+      "headings": [
+        "복원이 모든 물리량의 보존을 보장하지는 않는다"
+      ],
+      "actualSlide": 60,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "60",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-60.png",
+      "findingCount": 0
+    },
+    {
+      "number": 61,
+      "url": "http://127.0.0.1:3038/?qa-slide=61#/61",
+      "readinessWarnings": [],
+      "title": "고정 표현의 위치 판독으로 재사용을 확인한다",
+      "headings": [
+        "고정 표현의 위치 판독으로 재사용을 확인한다"
+      ],
+      "actualSlide": 61,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "61",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-61.png",
+      "findingCount": 0
+    },
+    {
+      "number": 62,
+      "url": "http://127.0.0.1:3038/?qa-slide=62#/62",
+      "readinessWarnings": [],
+      "title": "“뒤쪽의 알람”은 종류와 위치가 함께 맞아야 한다",
+      "headings": [
+        "“뒤쪽의 알람”은 종류와 위치가 함께 맞아야 한다"
+      ],
+      "actualSlide": 62,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "62",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-62.png",
+      "findingCount": 0
+    },
+    {
+      "number": 63,
+      "url": "http://127.0.0.1:3038/?qa-slide=63#/63",
+      "readinessWarnings": [],
+      "title": "의미와 공간을 따로 배우고 같은 음원에 연결한다",
+      "headings": [
+        "의미와 공간을 따로 배우고 같은 음원에 연결한다"
+      ],
+      "actualSlide": 63,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "63",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-63.png",
+      "findingCount": 0
+    },
+    {
+      "number": 64,
+      "url": "http://127.0.0.1:3038/?qa-slide=64#/64",
+      "readinessWarnings": [],
+      "title": "의미 정렬을 더하면 검색과 위치 판독이 어떻게 바뀌나",
+      "headings": [
+        "의미 정렬을 더하면 검색과 위치 판독이 어떻게 바뀌나"
+      ],
+      "actualSlide": 64,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "64",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-64.png",
+      "findingCount": 0
+    },
+    {
+      "number": 65,
+      "url": "http://127.0.0.1:3038/?qa-slide=65#/65",
+      "readinessWarnings": [],
+      "title": "의미 특징은 공간 경로의 어느 깊이에서 합칠까?",
+      "headings": [
+        "의미 특징은 공간 경로의 어느 깊이에서 합칠까?"
+      ],
+      "actualSlide": 65,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "65",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-65.png",
+      "findingCount": 0
+    },
+    {
+      "number": 66,
+      "url": "http://127.0.0.1:3038/?qa-slide=66#/66",
+      "readinessWarnings": [],
+      "title": "결합 위치의 효과도 학습 조건에 달려 있다",
+      "headings": [
+        "결합 위치의 효과도 학습 조건에 달려 있다"
+      ],
+      "actualSlide": 66,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "66",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-66.png",
+      "findingCount": 0
+    },
+    {
+      "number": 67,
+      "url": "http://127.0.0.1:3038/?qa-slide=67#/67",
+      "readinessWarnings": [],
+      "title": "언어 정렬도 실제 녹음에서 따로 검사한다",
+      "headings": [
+        "언어 정렬도 실제 녹음에서 따로 검사한다"
+      ],
+      "actualSlide": 67,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "67",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-67.png",
+      "findingCount": 0
+    },
+    {
+      "number": 68,
+      "url": "http://127.0.0.1:3038/?qa-slide=68#/68",
+      "readinessWarnings": [],
+      "title": "문장으로 고른 음원의 위치만 읽을 수 있나?",
+      "headings": [
+        "문장으로 고른 음원의 위치만 읽을 수 있나?"
+      ],
+      "actualSlide": 68,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "68",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-68.png",
+      "findingCount": 0
+    },
+    {
+      "number": 69,
+      "url": "http://127.0.0.1:3038/?qa-slide=69#/69",
+      "readinessWarnings": [],
+      "title": "목표 선택 뒤에도 IPD 경로의 기여가 남았다",
+      "headings": [
+        "목표 선택 뒤에도 IPD 경로의 기여가 남았다"
+      ],
+      "actualSlide": 69,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "69",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-69.png",
+      "findingCount": 0
+    },
+    {
+      "number": 70,
+      "url": "http://127.0.0.1:3038/?qa-slide=70#/70",
+      "readinessWarnings": [],
+      "title": "시간과 위치를 바꾼 문장은 다른 정답이다",
+      "headings": [
+        "시간과 위치를 바꾼 문장은 다른 정답이다"
+      ],
+      "actualSlide": 70,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "70",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-70.png",
+      "findingCount": 0
+    },
+    {
+      "number": 71,
+      "url": "http://127.0.0.1:3038/?qa-slide=71#/71",
+      "readinessWarnings": [],
+      "title": "순서·위치 정렬은 검색으로도 시험할 수 있다",
+      "headings": [
+        "순서·위치 정렬은 검색으로도 시험할 수 있다"
+      ],
+      "actualSlide": 71,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "71",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-71.png",
+      "findingCount": 0
+    },
+    {
+      "number": 72,
+      "url": "http://127.0.0.1:3038/?qa-slide=72#/72",
+      "readinessWarnings": [],
+      "title": "인코더가 같은 관측에서 과제별 특징을 고르게 한다",
+      "headings": [
+        "인코더가 같은 관측에서 과제별 특징을 고르게 한다"
+      ],
+      "actualSlide": 72,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "72",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-72.png",
+      "findingCount": 0
+    },
+    {
+      "number": 73,
+      "url": "http://127.0.0.1:3038/?qa-slide=73#/73",
+      "readinessWarnings": [],
+      "title": "기하 지도는 인코더에 배우고, QA에서는 오디오만 읽는다",
+      "headings": [
+        "기하 지도는 인코더에 배우고, QA에서는 오디오만 읽는다"
+      ],
+      "actualSlide": 73,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "73",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-73.png",
+      "findingCount": 0
+    },
+    {
+      "number": 74,
+      "url": "http://127.0.0.1:3038/?qa-slide=74#/74",
+      "readinessWarnings": [],
+      "title": "좌우 음량만 주는 입력으로 무엇을 시험하나?",
+      "headings": [
+        "좌우 음량만 주는 입력으로 무엇을 시험하나?"
+      ],
+      "actualSlide": 74,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "74",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-74.png",
+      "findingCount": 0
+    },
+    {
+      "number": 75,
+      "url": "http://127.0.0.1:3038/?qa-slide=75#/75",
+      "readinessWarnings": [],
+      "title": "전처리가 단서를 바꾸면 점수도 달라진다",
+      "headings": [
+        "전처리가 단서를 바꾸면 점수도 달라진다"
+      ],
+      "actualSlide": 75,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "75",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-75.png",
+      "findingCount": 0
+    },
+    {
+      "number": 76,
+      "url": "http://127.0.0.1:3038/?qa-slide=76#/76",
+      "readinessWarnings": [],
+      "title": "방 기하 지도는 학습 때만 사용할 수 있다",
+      "headings": [
+        "방 기하 지도는 학습 때만 사용할 수 있다"
+      ],
+      "actualSlide": 76,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "76",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-76.png",
+      "findingCount": 0
+    },
+    {
+      "number": 77,
+      "url": "http://127.0.0.1:3038/?qa-slide=77#/77",
+      "readinessWarnings": [],
+      "title": "사건 이름과 속성을 같은 음원에 묶는다",
+      "headings": [
+        "사건 이름과 속성을 같은 음원에 묶는다"
+      ],
+      "actualSlide": 77,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "77",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-77.png",
+      "findingCount": 0
+    },
+    {
+      "number": 78,
+      "url": "http://127.0.0.1:3038/?qa-slide=78#/78",
+      "readinessWarnings": [],
+      "title": "속성이 맞아도 음원을 잘못 연결하면 틀린 답이다",
+      "headings": [
+        "속성이 맞아도 음원을 잘못 연결하면 틀린 답이다"
+      ],
+      "actualSlide": 78,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "78",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-78.png",
+      "findingCount": 0
+    },
+    {
+      "number": 79,
+      "url": "http://127.0.0.1:3038/?qa-slide=79#/79",
+      "readinessWarnings": [],
+      "title": "지각·음원 결속·복합 질의를 나눠 측정한다",
+      "headings": [
+        "지각·음원 결속·복합 질의를 나눠 측정한다"
+      ],
+      "actualSlide": 79,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "79",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-79.png",
+      "findingCount": 0
+    },
+    {
+      "number": 80,
+      "url": "http://127.0.0.1:3038/?qa-slide=80#/80",
+      "readinessWarnings": [],
+      "title": "시간을 줄이기 전에 질문이 요구하는 정보를 정한다",
+      "headings": [
+        "시간을 줄이기 전에 질문이 요구하는 정보를 정한다"
+      ],
+      "actualSlide": 80,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "80",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-80.png",
+      "findingCount": 0
+    },
+    {
+      "number": 81,
+      "url": "http://127.0.0.1:3038/?qa-slide=81#/81",
+      "readinessWarnings": [],
+      "title": "교차하는 궤적에도 음원 정체성이 남아야 한다",
+      "headings": [
+        "교차하는 궤적에도 음원 정체성이 남아야 한다"
+      ],
+      "actualSlide": 81,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "81",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-81.png",
+      "findingCount": 0
+    },
+    {
+      "number": 82,
+      "url": "http://127.0.0.1:3038/?qa-slide=82#/82",
+      "readinessWarnings": [],
+      "title": "선택형 점수는 우연 기준부터 확인한다",
+      "headings": [
+        "선택형 점수는 우연 기준부터 확인한다"
+      ],
+      "actualSlide": 82,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "82",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-82.png",
+      "findingCount": 0
+    },
+    {
+      "number": 83,
+      "url": "http://127.0.0.1:3038/?qa-slide=83#/83",
+      "readinessWarnings": [],
+      "title": "현장에서는 말의 내용과 응답 대상이 갈린다",
+      "headings": [
+        "현장에서는 말의 내용과 응답 대상이 갈린다"
+      ],
+      "actualSlide": 83,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "83",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-83.png",
+      "findingCount": 0
+    },
+    {
+      "number": 84,
+      "url": "http://127.0.0.1:3038/?qa-slide=84#/84",
+      "readinessWarnings": [],
+      "title": "고정 인코더 위에 선형 판독기만 학습한다",
+      "headings": [
+        "고정 인코더 위에 선형 판독기만 학습한다"
+      ],
+      "actualSlide": 84,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "84",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-84.png",
+      "findingCount": 0
+    },
+    {
+      "number": 85,
+      "url": "http://127.0.0.1:3038/?qa-slide=85#/85",
+      "readinessWarnings": [],
+      "title": "단서를 제거하며 남은 반응의 원인을 좁힌다",
+      "headings": [
+        "단서를 제거하며 남은 반응의 원인을 좁힌다"
+      ],
+      "actualSlide": 85,
+      "slideRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720
+      },
+      "slideOutsideViewport": [],
+      "unrenderedMarkup": [],
+      "visibleImageCount": 1,
+      "visibleVideoCount": 0,
+      "missingImages": [],
+      "missingVideos": [],
+      "outsideSlide": [],
+      "textClipping": [],
+      "annotationOverlaps": [],
+      "globalPageNumbers": [
+        {
+          "text": "85",
+          "rect": {
+            "x": 1199.31,
+            "y": 681,
+            "width": 16.69,
+            "height": 15,
+            "right": 1216,
+            "bottom": 696
+          }
+        }
+      ],
+      "designIssues": [],
+      "lineCounts": {
+        "header": 1,
+        "takeaway": 1,
+        "source": 1
+      },
+      "screenshot": "slide-85.png",
+      "findingCount": 0
+    }
+  ],
+  "runtimeErrors": [],
+  "runtimeWarnings": [
+    {
+      "slide": 1,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 2,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 3,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 4,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 5,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 6,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 7,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 8,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 9,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 10,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 11,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 12,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 13,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 14,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 15,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 16,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 17,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 18,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 19,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 20,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 21,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 22,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 23,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 24,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 25,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 26,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 27,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 28,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 29,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 30,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 31,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 32,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 33,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 34,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 35,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 36,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 37,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 38,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 39,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 40,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 41,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 42,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 43,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 44,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 45,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 46,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 47,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 48,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 49,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 50,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 51,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 52,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 53,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 54,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 55,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 56,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 57,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 58,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 59,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 60,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 61,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 62,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 63,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 64,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 65,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 66,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 67,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 68,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 69,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 70,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 71,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 72,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 73,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 74,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 75,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 76,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 77,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 78,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 79,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 80,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 81,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 82,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 83,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 84,
+      "message": "Wake Lock permission request denied"
+    },
+    {
+      "slide": 85,
+      "message": "Wake Lock permission request denied"
+    }
+  ],
+  "summary": {
+    "requested": 85,
+    "captured": 85,
+    "captureErrors": 0,
+    "slidesWithFindings": 0,
+    "findings": 0,
+    "runtimeErrors": 0,
+    "runtimeWarnings": 85
+  },
+  "provenance": "All 85 pages inspected. Final wording/notes update recaptured S01–35; final native table and appendix divider recaptured S48,50."
+}

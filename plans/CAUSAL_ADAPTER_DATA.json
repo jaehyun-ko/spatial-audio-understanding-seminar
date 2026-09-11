@@ -1,0 +1,24 @@
+{
+  "source": "https://arxiv.org/html/2601.02954v3",
+  "table": "Appendix G Table 15",
+  "slide": 35,
+  "metric": "ASA overall accuracy (%)",
+  "scoring": "Semantic-answer judge (Gemini 3 Flash), reported Overall on ASA; before final SAPO; not exact MCQA.",
+  "values": [
+    {
+      "method": "P0: Single MLP",
+      "value": "39.20"
+    },
+    {
+      "method": "P1: Dual Tower",
+      "value": "46.40"
+    },
+    {
+      "method": "P2: Dense Hybrid",
+      "value": "52.10"
+    }
+  ],
+  "scope": "Reported projector design comparison. Complete matching of encoder/LLM checkpoint, training budget, and seed is not explicitly documented.",
+  "arithmeticCaveat": "Weighted reconstruction using published level sizes does not match reported Overall. Preserve reported values and do not infer counts.",
+  "bridge": "module-evidence"
+}

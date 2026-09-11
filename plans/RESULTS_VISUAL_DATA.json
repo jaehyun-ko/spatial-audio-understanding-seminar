@@ -1,0 +1,1063 @@
+{
+  "description": "Exact original table values, with plotted metric orientation. S46 is transposed into PA panels; stars and method names are retained. Citations and protocol conditions remain in the matching slide and speaker notes.",
+  "charts": [
+    {
+      "slide": 11,
+      "metrics": [
+        "평균 위치 오차 (m) ↓"
+      ],
+      "labels": [
+        "SRP",
+        "NeuralSRP+"
+      ],
+      "values": [
+        [
+          "1.19"
+        ],
+        [
+          "0.77"
+        ]
+      ],
+      "limits": [
+        1.5
+      ],
+      "mode": "comparison",
+      "sourceSlide": 11,
+      "sourceTableRows": [
+        [
+          "방법",
+          "평균 위치 오차 (m) ↓"
+        ],
+        [
+          "SRP",
+          "1.19"
+        ],
+        [
+          "NeuralSRP+",
+          "0.77"
+        ]
+      ]
+    },
+    {
+      "slide": 14,
+      "metrics": [
+        "방향 MAE (°) ↓",
+        "$\\mathrm{ACC}_{10}$ (%) ↑"
+      ],
+      "labels": [
+        "기본 Neural-SRP",
+        "AGG 적용"
+      ],
+      "values": [
+        [
+          "21.18",
+          "45.51"
+        ],
+        [
+          "19.05",
+          "54.13"
+        ]
+      ],
+      "limits": [
+        30,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 14,
+      "sourceTableRows": [
+        [
+          "Neural-SRP",
+          "MAE (°) ↓",
+          ""
+        ],
+        [
+          "기본 모델",
+          "21.18",
+          "45.51"
+        ],
+        [
+          "AGG 적용",
+          "19.05",
+          "54.13"
+        ]
+      ]
+    },
+    {
+      "slide": 19,
+      "metrics": [
+        "사건 정확도 (%) ↑",
+        "방위각 오차 (°) ↓"
+      ],
+      "labels": [
+        "사전학습 없음",
+        "MC-SimCLR · w/o DA"
+      ],
+      "values": [
+        [
+          "23.6",
+          "83.1"
+        ],
+        [
+          "33.0",
+          "13.2"
+        ]
+      ],
+      "limits": [
+        100,
+        90
+      ],
+      "mode": "comparison",
+      "sourceSlide": 19,
+      "sourceTableRows": [
+        [
+          "사전학습",
+          "사건 정확도 (%) ↑",
+          "방위각 오차 (°) ↓"
+        ],
+        [
+          "없음 · Random",
+          "23.6",
+          "83.1"
+        ],
+        [
+          "MC-SimCLR · w/o DA",
+          "33.0",
+          "13.2"
+        ]
+      ]
+    },
+    {
+      "slide": 21,
+      "metrics": [
+        "TDoA MAE (samples) ↓"
+      ],
+      "labels": [
+        "처음부터 지도학습",
+        "사전학습 + 전체 미세조정"
+      ],
+      "values": [
+        [
+          "0.40"
+        ],
+        [
+          "0.28"
+        ]
+      ],
+      "limits": [
+        0.5
+      ],
+      "mode": "comparison",
+      "sourceSlide": 21,
+      "sourceTableRows": [
+        [
+          "학습 설정",
+          "TDoA MAE (samples) ↓"
+        ],
+        [
+          "처음부터 지도학습",
+          "0.40"
+        ],
+        [
+          "사전학습 + 전체 미세조정",
+          "0.28"
+        ]
+      ]
+    },
+    {
+      "slide": 27,
+      "metrics": [
+        "Test SELD ↓"
+      ],
+      "labels": [
+        "no-stitch · cs00",
+        "late-only · cs01"
+      ],
+      "values": [
+        [
+          "0.708"
+        ],
+        [
+          "0.624"
+        ]
+      ],
+      "limits": [
+        1
+      ],
+      "mode": "comparison",
+      "sourceSlide": 27,
+      "sourceTableRows": [
+        [
+          "결합 설정",
+          "Test SELD ↓"
+        ],
+        [
+          "no-stitch · cs00",
+          "0.708"
+        ],
+        [
+          "late-only · cs01",
+          "0.624"
+        ]
+      ]
+    },
+    {
+      "slide": 33,
+      "metrics": [
+        "4방향 정확도 (%) ↑"
+      ],
+      "labels": [
+        "S-Clotho · 합성",
+        "S-AC · 합성",
+        "S-RWD · 실녹음"
+      ],
+      "values": [
+        [
+          "92.0"
+        ],
+        [
+          "92.8"
+        ],
+        [
+          "35.8"
+        ]
+      ],
+      "limits": [
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 33,
+      "sourceTableRows": [
+        [
+          "평가 데이터",
+          "관측 조건",
+          "4방향 정확도 (%) ↑"
+        ],
+        [
+          "S-Clotho",
+          "합성",
+          "92.0"
+        ],
+        [
+          "S-AC",
+          "합성",
+          "92.8"
+        ],
+        [
+          "S-RWD",
+          "실녹음",
+          "35.8"
+        ]
+      ]
+    },
+    {
+      "slide": 35,
+      "metrics": [
+        "T2A R@1 (%) ↑",
+        "A2T R@1 (%) ↑",
+        "위치 오차 (°) ↓"
+      ],
+      "labels": [
+        "$L_{\\mathrm{sCL}}+L_{\\mathrm{DOA}}$",
+        "위 조건 + $L_{\\mathrm{CL}}$"
+      ],
+      "values": [
+        [
+          "9.1",
+          "9.6",
+          "1.8"
+        ],
+        [
+          "10.5",
+          "10.4",
+          "1.6"
+        ]
+      ],
+      "limits": [
+        15,
+        15,
+        3
+      ],
+      "mode": "comparison",
+      "sourceSlide": 35,
+      "sourceTableRows": [
+        [
+          "SALM의 학습 목표",
+          "T2A R@1 (%) ↑",
+          "A2T R@1 (%) ↑",
+          "위치 오차 (°) ↓"
+        ],
+        [
+          "",
+          "9.1",
+          "9.6",
+          "1.8"
+        ],
+        [
+          "",
+          "10.5",
+          "10.4",
+          "1.6"
+        ]
+      ]
+    },
+    {
+      "slide": 37,
+      "metrics": [
+        "MAE (°) ↓",
+        "F1 ↑"
+      ],
+      "labels": [
+        "Full",
+        "IPD Enhancer 제거 · A1"
+      ],
+      "values": [
+        [
+          "0.98",
+          "0.96"
+        ],
+        [
+          "2.10",
+          "0.83"
+        ]
+      ],
+      "limits": [
+        3,
+        1
+      ],
+      "mode": "comparison",
+      "sourceSlide": 37,
+      "sourceTableRows": [
+        [
+          "SelectTSL 설정",
+          "MAE (°) ↓",
+          "F1 ↑"
+        ],
+        [
+          "Full",
+          "0.98",
+          "0.96"
+        ],
+        [
+          "IPD Enhancer 제거 · A1",
+          "2.10",
+          "0.83"
+        ]
+      ]
+    },
+    {
+      "slide": 39,
+      "metrics": [
+        "관계 질문 · 평균 BA (%) ↑"
+      ],
+      "labels": [
+        "P · 질문만",
+        "B + P · 바이노럴 + 질문"
+      ],
+      "values": [
+        [
+          "54.48"
+        ],
+        [
+          "76.89"
+        ]
+      ],
+      "limits": [
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 39,
+      "sourceTableRows": [
+        [
+          "모델에 제공한 입력",
+          "Type E 평균 BA (%)\n높을수록 좋음"
+        ],
+        [
+          "P · 질문만",
+          "54.48"
+        ],
+        [
+          "B + P · 바이노럴 + 질문",
+          "76.89"
+        ]
+      ]
+    },
+    {
+      "slide": 41,
+      "metrics": [
+        "방향 정확도 (%) ↑\nType D · 8범주",
+        "DER (%) ↓\n거리 오차 > 0.5 m",
+        "관계 평균 BA (%) ↑\nType E"
+      ],
+      "labels": [
+        "SpatialAST",
+        "DSpAST"
+      ],
+      "values": [
+        [
+          "34.80",
+          "53.40",
+          "74.04"
+        ],
+        [
+          "37.35",
+          "48.51",
+          "76.56"
+        ]
+      ],
+      "limits": [
+        100,
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 41,
+      "sourceTableRows": [
+        [
+          "인코더",
+          "방향 정확도 (%) ↑\nType D · 8범주",
+          "DER (%) ↓\n오차 > 0.5 m 비율",
+          "관계 평균 BA (%) ↑\nType E"
+        ],
+        [
+          "SpatialAST",
+          "34.80",
+          "53.40",
+          "74.04"
+        ],
+        [
+          "DSpAST",
+          "37.35",
+          "48.51",
+          "76.56"
+        ]
+      ]
+    },
+    {
+      "slide": 44,
+      "metrics": [
+        "방향 MAE (°) ↓",
+        "거리 DER (%) ↓"
+      ],
+      "labels": [
+        "바이노럴 loss · $\\eta_2=0$",
+        "전체 loss · $\\eta_2=10^{-2}$"
+      ],
+      "values": [
+        [
+          "26.32",
+          "17.11"
+        ],
+        [
+          "21.67",
+          "14.32"
+        ]
+      ],
+      "limits": [
+        30,
+        25
+      ],
+      "mode": "comparison",
+      "sourceSlide": 44,
+      "sourceTableRows": [
+        [
+          "SAGE의 학습 조건",
+          "방향 MAE (°)\n낮을수록 좋음",
+          "거리 DER (%)\n낮을수록 좋음"
+        ],
+        [
+          "",
+          "26.32",
+          "17.11"
+        ],
+        [
+          "",
+          "21.67",
+          "14.32"
+        ]
+      ]
+    },
+    {
+      "slide": 46,
+      "metrics": [
+        "PA = 0.00",
+        "PA = 0.50"
+      ],
+      "labels": [
+        "Dither Off",
+        "Dither On · DA = 0.05"
+      ],
+      "values": [
+        [
+          "99.5",
+          "37.9"
+        ],
+        [
+          "99.0",
+          "97.1"
+        ]
+      ],
+      "limits": [
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 46,
+      "sourceTableRows": [
+        [
+          "평가 PA",
+          "Dither Off",
+          "Dither On\nDA = 0.05"
+        ],
+        [
+          "0.00",
+          "99.5",
+          "99.0"
+        ],
+        [
+          "0.50",
+          "37.9",
+          "97.1"
+        ]
+      ]
+    },
+    {
+      "slide": 48,
+      "metrics": [
+        "Synthetic 정확도 (%) ↑",
+        "RSL2019 정확도 (%) ↑"
+      ],
+      "labels": [
+        "Baseline · mono",
+        "SFT · 공간 입력 + 학습"
+      ],
+      "values": [
+        [
+          "48.44",
+          "53.91"
+        ],
+        [
+          "76.76",
+          "73.83"
+        ]
+      ],
+      "limits": [
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 48,
+      "sourceTableRows": [
+        [
+          "시스템 조건",
+          "Synthetic",
+          "RSL2019"
+        ],
+        [
+          "Baseline · mono",
+          "48.44",
+          "53.91"
+        ],
+        [
+          "SFT · 공간 입력 + 학습",
+          "76.76",
+          "73.83"
+        ]
+      ]
+    },
+    {
+      "slide": 55,
+      "metrics": [
+        "EAzi (%) ↑\n방위각 오차 ≤ 20°",
+        "IS-Loc (%) ↑\n위치로 음원 식별",
+        "RLR (%) ↑\n상대 좌우"
+      ],
+      "labels": [
+        "SO-7B-zs · 공간 토큰 0",
+        "SO-7B · 실제 공간 토큰"
+      ],
+      "values": [
+        [
+          "13.06",
+          "40.69",
+          "47.15"
+        ],
+        [
+          "76.38",
+          "66.81",
+          "72.97"
+        ]
+      ],
+      "limits": [
+        100,
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 55,
+      "sourceTableRows": [
+        [
+          "모델·공간 입력",
+          "EAzi\n방위각 오차 ≤ 20°",
+          "IS-Loc\n위치로 음원 식별",
+          "RLR\n상대 좌우"
+        ],
+        [
+          "SO-7B-zs · 토큰 0",
+          "13.06",
+          "40.69",
+          "47.15"
+        ],
+        [
+          "SO-7B · 실제 토큰",
+          "76.38",
+          "66.81",
+          "72.97"
+        ]
+      ]
+    },
+    {
+      "slide": 58,
+      "metrics": [
+        "L1 · 지각",
+        "L2 · 관계 연결",
+        "L3 · 복합 질의"
+      ],
+      "labels": [
+        "TWNM-SFT",
+        "TWNM-SAPO"
+      ],
+      "values": [
+        [
+          "65.19",
+          "70.61",
+          "51.19"
+        ],
+        [
+          "63.64",
+          "69.89",
+          "79.76"
+        ]
+      ],
+      "limits": [
+        100,
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 58,
+      "sourceTableRows": [
+        [
+          "학습 단계",
+          "L1\n지각",
+          "L2\n관계 연결",
+          "L3\n복합 질의"
+        ],
+        [
+          "TWNM-SFT",
+          "65.19",
+          "70.61",
+          "51.19"
+        ],
+        [
+          "TWNM-SAPO",
+          "63.64",
+          "69.89",
+          "79.76"
+        ]
+      ]
+    },
+    {
+      "slide": 60,
+      "metrics": [
+        "DoA·trajectory",
+        "Overall"
+      ],
+      "labels": [
+        "DSAST + Qwen7B",
+        "DSAST w/ AGM + Qwen7B"
+      ],
+      "values": [
+        [
+          "35.8",
+          "20.7"
+        ],
+        [
+          "26.4",
+          "31.1"
+        ]
+      ],
+      "limits": [
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 60,
+      "sourceTableRows": [
+        [
+          "지각 → 추론 경로",
+          "DoA·trajectory",
+          "Overall"
+        ],
+        [
+          "DSAST + Qwen7B",
+          "35.8",
+          "20.7"
+        ],
+        [
+          "DSAST w/ AGM + Qwen7B",
+          "26.4",
+          "31.1"
+        ]
+      ]
+    },
+    {
+      "slide": 61,
+      "metrics": [
+        "NoMask",
+        "AGM mask",
+        "GT mask"
+      ],
+      "labels": [
+        "Thinking",
+        "Non-Thinking"
+      ],
+      "values": [
+        [
+          "54.3",
+          "55.0",
+          "56.1"
+        ],
+        [
+          "54.1",
+          "54.0",
+          "54.1"
+        ]
+      ],
+      "limits": [
+        100,
+        100,
+        100
+      ],
+      "mode": "mask",
+      "sourceSlide": 61,
+      "sourceTableRows": [
+        [
+          "출력 설정",
+          "NoMask",
+          "AGM mask",
+          "GT mask"
+        ],
+        [
+          "Thinking",
+          "54.3",
+          "55.0",
+          "56.1"
+        ],
+        [
+          "Non-Thinking",
+          "54.1",
+          "54.0",
+          "54.1"
+        ]
+      ]
+    },
+    {
+      "slide": 64,
+      "metrics": [
+        "시간 관계\nTemp. rel.",
+        "이동 조건\nMove-spat.",
+        "궤적 관계\nTraj. rel.",
+        "평균"
+      ],
+      "labels": [
+        "Spatial-AST-FOA + OLMo2",
+        "ST-AudioLM"
+      ],
+      "values": [
+        [
+          "80.4",
+          "55.2",
+          "54.3",
+          "63.3"
+        ],
+        [
+          "86.0",
+          "55.8",
+          "60.6",
+          "67.5"
+        ]
+      ],
+      "limits": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 64,
+      "sourceTableRows": [
+        [
+          "QA 학습 모델",
+          "시간 관계\nTemp. rel.",
+          "이동 조건\nMove-spat.",
+          "궤적 관계\nTraj. rel.",
+          "평균"
+        ],
+        [
+          "Spatial-AST-FOA\n+ OLMo2",
+          "80.4",
+          "55.2",
+          "54.3",
+          "63.3"
+        ],
+        [
+          "ST-AudioLM",
+          "86.0",
+          "55.8",
+          "60.6",
+          "67.5"
+        ]
+      ]
+    },
+    {
+      "slide": 66,
+      "metrics": [
+        "Global T2A R@1 (%) ↑"
+      ],
+      "labels": [
+        "대조 학습만 · $L_{\\mathrm{cl}}$",
+        "전체 · $L_{\\mathrm{cl}}+L_{\\mathrm{st}}+L_{\\mathrm{local}}+L_{\\mathrm{consist}}$"
+      ],
+      "values": [
+        [
+          "5.84"
+        ],
+        [
+          "8.10"
+        ]
+      ],
+      "limits": [
+        10
+      ],
+      "mode": "comparison",
+      "sourceSlide": 66,
+      "sourceTableRows": [
+        [
+          "CoSTALA 학습 loss",
+          "Global T2A R@1 (%)\n높을수록 좋음"
+        ],
+        [
+          "",
+          "5.84"
+        ],
+        [
+          "",
+          "8.10"
+        ]
+      ]
+    },
+    {
+      "slide": 69,
+      "metrics": [
+        "Localization",
+        "Relation",
+        "Trajectory"
+      ],
+      "labels": [
+        "무작위 선택",
+        "Gemini 2.5 Pro"
+      ],
+      "values": [
+        [
+          "33.33",
+          "33.33",
+          "33.33"
+        ],
+        [
+          "40.87",
+          "48.97",
+          "45.28"
+        ]
+      ],
+      "limits": [
+        100,
+        100,
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 69,
+      "sourceTableRows": [
+        [
+          "평가 조건",
+          "Localization",
+          "Relation",
+          "Trajectory"
+        ],
+        [
+          "무작위 선택",
+          "33.33",
+          "33.33",
+          "33.33"
+        ],
+        [
+          "Gemini 2.5 Pro",
+          "40.87",
+          "48.97",
+          "45.28"
+        ]
+      ]
+    },
+    {
+      "slide": 71,
+      "metrics": [
+        "Side Talk Rejection 정확도 (%) ↑"
+      ],
+      "labels": [
+        "SC · beamformed",
+        "MC · 채널 0 + beamformed"
+      ],
+      "values": [
+        [
+          "85.4"
+        ],
+        [
+          "93.9"
+        ]
+      ],
+      "limits": [
+        100
+      ],
+      "mode": "comparison",
+      "sourceSlide": 71,
+      "sourceTableRows": [
+        [
+          "입력·시스템",
+          "정확도"
+        ],
+        [
+          "SC · beamformed 채널",
+          "85.4"
+        ],
+        [
+          "MC · 채널 0 + beamformed",
+          "93.9"
+        ]
+      ]
+    },
+    {
+      "slide": 75,
+      "metrics": [
+        "표현 거리비 지표 (dB)"
+      ],
+      "labels": [
+        "Spatial-AST",
+        "DSpAST",
+        "GRAM-T",
+        "WavJEPA"
+      ],
+      "values": [
+        [
+          "6.8*"
+        ],
+        [
+          "7.0*"
+        ],
+        [
+          "2.1*"
+        ],
+        [
+          "0.5*"
+        ]
+      ],
+      "limits": [
+        8
+      ],
+      "mode": "comparison",
+      "sourceSlide": 75,
+      "sourceTableRows": [
+        [
+          "인코더",
+          "표현 거리비 지표 (dB)"
+        ],
+        [
+          "Spatial-AST",
+          "6.8*"
+        ],
+        [
+          "DSpAST",
+          "7.0*"
+        ],
+        [
+          "GRAM-T",
+          "2.1*"
+        ],
+        [
+          "WavJEPA",
+          "0.5*"
+        ]
+      ]
+    },
+    {
+      "slide": 76,
+      "metrics": [
+        "유의한 반응 비율 (%)"
+      ],
+      "labels": [
+        "원신호",
+        "고역통과 > 2 kHz",
+        "Mel 대역 ILD 제거",
+        "50 Hz 포락선 vocoding"
+      ],
+      "values": [
+        [
+          "100",
+          "0"
+        ],
+        [
+          "100",
+          "0"
+        ],
+        [
+          "100",
+          "0"
+        ],
+        [
+          "50",
+          "25"
+        ]
+      ],
+      "limits": [
+        100
+      ],
+      "mode": "stack",
+      "sourceSlide": 76,
+      "sourceTableRows": [
+        [
+          "파형 조건",
+          "Unmasking",
+          "Reversal"
+        ],
+        [
+          "원신호",
+          "100",
+          "0"
+        ],
+        [
+          "고역통과 > 2 kHz",
+          "100",
+          "0"
+        ],
+        [
+          "Mel 대역 ILD 제거",
+          "100",
+          "0"
+        ],
+        [
+          "50 Hz 포락선 vocoding",
+          "50",
+          "25"
+        ]
+      ]
+    }
+  ]
+}

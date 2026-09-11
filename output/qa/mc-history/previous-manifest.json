@@ -1,0 +1,94 @@
+{
+  "completed": "2026-09-11",
+  "revision": "localization-before-llm",
+  "slides": 80,
+  "mainSlides": 47,
+  "appendixSlides": 33,
+  "papers": 27,
+  "newLocalizationDiagrams": 4,
+  "updatedIntegrationDiagrams": 2,
+  "preservedResultValues": 99,
+  "additionalReportedAdapterValues": 3,
+  "nativeTables": 0,
+  "nativeTextRuns": 694,
+  "speakerNotes": 80,
+  "standaloneEquationImages": 14,
+  "theme": "light",
+  "canvas": "#f6f8fa",
+  "math": "KaTeX with full glyph bounds in PPTX; vector math in diagrams; MathTex in unchanged Manim.",
+  "pptxGraphics": "Native editable text; figures and equations are images. SVG/Python/JSON/NPZ sources retained.",
+  "activeManimSlides": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "pptxAndPdfAnimation": "Static final explanation posters; live animations in Slidev.",
+  "visualQA": {
+    "requested": 80,
+    "captured": 80,
+    "captureErrors": 0,
+    "slidesWithFindings": 0,
+    "findings": 0,
+    "runtimeErrors": 0,
+    "runtimeWarnings": 80
+  },
+  "visualQAWarnings": "80 headless wake-lock permission warnings; no runtime errors. Two intentional off-canvas decorative waves on cover and appendix divider.",
+  "pptxValidationReceipt": "output/qa/localization/pptx-validation.json",
+  "sourceResultPreservation": "output/qa/localization/result-preservation.json",
+  "packageAndNotesAudit": "output/qa/localization/package-audit.json",
+  "renderComparison": "output/qa/localization/render-diff.json",
+  "nativeRenderQA": "PDF: 70 existing bodies pixel-identical; 4 new and 6 intentionally edited pages individually reviewed, plus all current headers/footers. PPTX: all 80 rendered; 57 bodies pixel-identical; 13 minor text rasterization differences with identical text/geometry/styles individually reviewed; 4 new and 6 intentionally edited pages reviewed. LibreOffice used; Microsoft PowerPoint not available.",
+  "narrativeQA": "Independent review of GCC-PHAT delay, geometric locus, SRP candidate scores/sum, Neural-SRP learned response and encoder/adapter/LLM transition passed.",
+  "orderManifest": "plans/CAUSAL_DECK_ORDER.json",
+  "manimBackgroundAudit": "output/qa/causal/manim-background-audit.json",
+  "manimAuditScope": "Five active MP4/WebM clips unchanged from previous fully light-background-audited revision.",
+  "files": [
+    {
+      "path": "output/pptx/spatial-audio-understanding-localization-final.pptx",
+      "bytes": 15265582,
+      "sha256": "5d27a7853fe9d1090208d0b0354b243e07dcd4bbdc6cd874e217b332f0cc8ca6"
+    },
+    {
+      "path": "output/pdf/spatial-audio-understanding-localization.pdf",
+      "bytes": 11648533,
+      "sha256": "c6f3acb40a60ec8f23541d036d638ba892f909ef1110adc0a33027728612dce2"
+    },
+    {
+      "path": "output/pptx/spatial-audio-understanding.pptx",
+      "bytes": 15265582,
+      "sha256": "5d27a7853fe9d1090208d0b0354b243e07dcd4bbdc6cd874e217b332f0cc8ca6"
+    },
+    {
+      "path": "output/pdf/spatial-audio-understanding.pdf",
+      "bytes": 11648533,
+      "sha256": "c6f3acb40a60ec8f23541d036d638ba892f909ef1110adc0a33027728612dce2"
+    },
+    {
+      "path": "spatial-audio-lineage.pdf",
+      "bytes": 11648533,
+      "sha256": "c6f3acb40a60ec8f23541d036d638ba892f909ef1110adc0a33027728612dce2"
+    },
+    {
+      "path": "slides.md",
+      "bytes": 214543,
+      "sha256": "dfa24ec04996e68ea2193d0203b8bf94efd7e8bb27540232cb7832e10445e870"
+    },
+    {
+      "path": "plans/CAUSAL_DECK_ORDER.json",
+      "bytes": 36221,
+      "sha256": "47d34742a96e8823edb9c4e672a7c0e9e52b0072dd9fa5e1f00e58f2718e15e2"
+    },
+    {
+      "path": "plans/RESULTS_VISUAL_DATA.json",
+      "bytes": 18757,
+      "sha256": "9e8f64bb01c8f5f1c626cfcaa19be8cbc9b6b512ade4252be65d3834f371e9cf"
+    },
+    {
+      "path": "plans/CAUSAL_ADAPTER_DATA.json",
+      "bytes": 833,
+      "sha256": "9922d7acf4e50500873d5b9ababf6f7b176243b5cd7f22c4b2fd23221363bdbf"
+    }
+  ]
+}

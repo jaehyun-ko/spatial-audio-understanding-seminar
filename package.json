@@ -6,14 +6,27 @@
   "type": "module",
   "scripts": {
     "dev": "slidev slides.md --open",
+    "dev:design": "slidev design-system.md --port 3036 --open",
     "build": "slidev build slides.md",
+    "build:design": "slidev build design-system.md --out dist/design-system",
     "export": "slidev export slides.md --format pdf --per-slide --wait 200 --wait-until networkidle --output spatial-audio-lineage.pdf",
+    "export:design": "slidev export design-system.md --format pdf --per-slide --wait 200 --wait-until networkidle --output output/pdf/design-system.pdf",
+    "manim:pilot": "bash scripts/render-manim-pilot.sh",
+    "qa:design": "node scripts/visual-qa.mjs --url http://localhost:3036 --slides 10 --out tmp/design-system-qa --fail-on-warnings",
+    "test:design": "node scripts/test-design-system.mjs --url http://localhost:3036",
     "validate": "node scripts/validate.mjs",
-    "lint:slop": "node scripts/anti_slop_lint.mjs"
+    "lint:slop": "node scripts/anti_slop_lint.mjs",
+    "assemble": "node scripts/assemble-deck.mjs",
+    "qa": "node scripts/visual-qa.mjs --url http://localhost:3037 --slides 85 --out tmp/final-deck-qa --fail-on-warnings",
+    "dev:final": "slidev slides.md --port 3037",
+    "export:pptx": "node scripts/export-editable-pptx.mjs --url http://localhost:3037",
+    "export:pdf": "slidev export slides.md --format pdf --per-slide --wait 300 --wait-until networkidle --output output/pdf/spatial-audio-understanding.pdf",
+    "dev:tailnet": "node --dns-result-order=ipv4first ./node_modules/.bin/slidev slides.md --port 3037"
   },
   "devDependencies": {
     "@slidev/cli": "52.19.1",
     "@slidev/theme-default": "0.25.0",
+    "katex": "0.18.4",
     "playwright-chromium": "1.55.0"
   }
 }

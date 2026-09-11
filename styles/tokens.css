@@ -1,0 +1,92 @@
+/* CSS px on the 1280 × 720 Slidev canvas. Pretendard v1.3.9, SIL OFL.
+   Static faces avoid Chromium variable-font Type 3 glyph warnings in PDF. */
+@font-face {
+  font-family: 'Seminar Pretendard';
+  src: url('/fonts/Pretendard-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Seminar Pretendard';
+  src: url('/fonts/Pretendard-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Seminar Pretendard';
+  src: url('/fonts/Pretendard-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Seminar Pretendard';
+  src: url('/fonts/Pretendard-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+:root {
+  --font-sans: 'Seminar Pretendard', Pretendard, 'Apple SD Gothic Neo', sans-serif;
+  --color-paper: #f6f8fa;
+  --color-surface: #ffffff;
+  --color-ink: #142233;
+  --color-secondary: #586879;
+  --color-accent: #1f5fae;
+  --color-signal: #008b9a;
+  --color-signal-bright: #58c4dd;
+  --color-geometry: #007b80;
+  --color-geometry-bright: #007b80;
+  --color-focus: #1f5fae;
+  --color-focus-bright: #1f5fae;
+  --color-negative: #a95018;
+  --color-negative-bright: #a95018;
+  --color-accent-soft: #e7eff9;
+  --color-signal-soft: #e2f2f3;
+  --color-rule: #d4dde7;
+  --color-rule-strong: #a9b8c8;
+  --color-caution: #a95018;
+  --color-inverse: #ffffff;
+  --color-dark: #0c1b2f;
+  --type-cover: 82px;
+  --type-title: 44px;
+  --type-section: 60px;
+  --type-question: 36px;
+  --type-subtitle: 30px;
+  --type-body: 27px;
+  --type-aside: 23px;
+  --type-table: 25px;
+  --type-comparison: 24px;
+  --type-label: 20px;
+  --type-caption: 18px;
+  --type-citation: 14px;
+  --type-number: 38px;
+  --type-number-dense: 32px;
+  --type-context: 20px;
+  --type-compact: 22px;
+  --type-concept: 36px;
+  --weight-body: 400;
+  --weight-label: 600;
+  --weight-title: 700;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --margin-x: 72px;
+  --margin-top: 48px;
+  --margin-bottom: 28px;
+  --header-height: 104px;
+  --takeaway-height: 52px;
+  --source-height: 36px;
+  /* Existing deck aliases: keep its geometry and content unchanged. */
+  --paper: var(--color-paper);
+  --ink: var(--color-ink);
+  --muted: var(--color-secondary);
+  --line: var(--color-rule);
+  --accent: var(--color-accent);
+  --charcoal: var(--color-dark);
+  --slidev-theme-primary: var(--color-accent);
+}

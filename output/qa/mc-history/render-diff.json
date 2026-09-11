@@ -1,0 +1,1354 @@
+{
+  "PDF": {
+    "comparedRegion": "x0..1279, y145..681; updated title/chapter/footer excluded, source asset identity retained",
+    "rows": [
+      {
+        "old": 1,
+        "new": 1,
+        "key": "o1",
+        "status": "expected edit",
+        "differenceBBox": [
+          108,
+          530,
+          369,
+          537
+        ]
+      },
+      {
+        "old": 2,
+        "new": 2,
+        "key": "o2",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 3,
+        "new": 3,
+        "key": "o3",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 4,
+        "new": 4,
+        "key": "o4",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 5,
+        "new": 5,
+        "key": "o5",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 6,
+        "new": 6,
+        "key": "o6",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 7,
+        "new": 7,
+        "key": "gcc-phat",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 8,
+        "new": 8,
+        "key": "tdoa-locus",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 9,
+        "new": 9,
+        "key": "srp-candidate",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 10,
+        "new": 10,
+        "key": "srp-sum",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 11,
+        "new": 11,
+        "key": "srp-neural",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 12,
+        "new": 12,
+        "key": "o10",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 13,
+        "new": 13,
+        "key": "o11",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 14,
+        "new": 14,
+        "key": "readout-to-encoder",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 15,
+        "key": "history-map",
+        "status": "new page"
+      },
+      {
+        "new": 16,
+        "key": "history-interfaces",
+        "status": "new page"
+      },
+      {
+        "old": 15,
+        "new": 17,
+        "key": "audio-llm-contract",
+        "status": "expected edit",
+        "differenceBBox": [
+          96,
+          210,
+          1043,
+          484
+        ]
+      },
+      {
+        "old": 33,
+        "new": 18,
+        "key": "lora-reading",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 16,
+        "new": 19,
+        "key": "encoder-criteria",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 17,
+        "new": 20,
+        "key": "encoder-objectives",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 19,
+        "new": 21,
+        "key": "o19",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 22,
+        "key": "history-bat",
+        "status": "new page"
+      },
+      {
+        "old": 76,
+        "new": 23,
+        "key": "o39",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 24,
+        "key": "history-encoder-branches",
+        "status": "new page"
+      },
+      {
+        "old": 37,
+        "new": 25,
+        "key": "o41",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 39,
+        "new": 26,
+        "key": "o44",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 74,
+        "new": 27,
+        "key": "o60",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 28,
+        "key": "history-extensions",
+        "status": "new page"
+      },
+      {
+        "old": 26,
+        "new": 29,
+        "key": "o51",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 67,
+        "new": 30,
+        "key": "o47",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 40,
+        "new": 31,
+        "key": "o48",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 31,
+        "new": 32,
+        "key": "o54",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 32,
+        "new": 33,
+        "key": "o55",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 29,
+        "new": 34,
+        "key": "o57",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 35,
+        "new": 35,
+        "key": "module-evidence",
+        "status": "expected edit",
+        "differenceBBox": [
+          457,
+          404,
+          491,
+          422
+        ]
+      },
+      {
+        "old": 34,
+        "new": 36,
+        "key": "o58",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 37,
+        "key": "history-dynamics",
+        "status": "new page"
+      },
+      {
+        "old": 25,
+        "new": 38,
+        "key": "token-bottleneck",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 75,
+        "new": 39,
+        "key": "o61",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 27,
+        "new": 40,
+        "key": "o63",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 28,
+        "new": 41,
+        "key": "o64",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 41,
+        "new": 42,
+        "key": "causal-evaluation",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 42,
+        "new": 43,
+        "key": "o68",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 21,
+        "new": 44,
+        "key": "o73",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 43,
+        "new": 45,
+        "key": "o74",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 44,
+        "new": 46,
+        "key": "o75",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 45,
+        "new": 47,
+        "key": "o71",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 48,
+        "key": "history-synthesis",
+        "status": "new page"
+      },
+      {
+        "old": 47,
+        "new": 49,
+        "key": "closing-tests",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 48,
+        "new": 50,
+        "key": "appendix-index",
+        "status": "expected edit",
+        "differenceBBox": [
+          97,
+          413,
+          762,
+          476
+        ]
+      },
+      {
+        "old": 18,
+        "new": 51,
+        "key": "o29",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 20,
+        "new": 52,
+        "key": "o25",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 49,
+        "new": 53,
+        "key": "o12",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 50,
+        "new": 54,
+        "key": "o13",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 51,
+        "new": 55,
+        "key": "o14",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 52,
+        "new": 56,
+        "key": "o16",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 53,
+        "new": 57,
+        "key": "o15",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 54,
+        "new": 58,
+        "key": "o23",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 55,
+        "new": 59,
+        "key": "o24",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 56,
+        "new": 60,
+        "key": "o21",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 57,
+        "new": 61,
+        "key": "o30",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 22,
+        "new": 62,
+        "key": "o32",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 23,
+        "new": 63,
+        "key": "o34",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 24,
+        "new": 64,
+        "key": "o35",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 58,
+        "new": 65,
+        "key": "o26",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 59,
+        "new": 66,
+        "key": "o27",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 60,
+        "new": 67,
+        "key": "o33",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 61,
+        "new": 68,
+        "key": "o36",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 62,
+        "new": 69,
+        "key": "o37",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 63,
+        "new": 70,
+        "key": "o65",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 64,
+        "new": 71,
+        "key": "o66",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 36,
+        "new": 72,
+        "key": "o40",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 38,
+        "new": 73,
+        "key": "o43",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 65,
+        "new": 74,
+        "key": "o45",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 66,
+        "new": 75,
+        "key": "o46",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 68,
+        "new": 76,
+        "key": "o42",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 69,
+        "new": 77,
+        "key": "o50",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 70,
+        "new": 78,
+        "key": "o52",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 71,
+        "new": 79,
+        "key": "o56",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 72,
+        "new": 80,
+        "key": "o59",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 73,
+        "new": 81,
+        "key": "o62",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 77,
+        "new": 82,
+        "key": "o69",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 78,
+        "new": 83,
+        "key": "o70",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 79,
+        "new": 84,
+        "key": "o72",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 80,
+        "new": 85,
+        "key": "o76",
+        "status": "body identical",
+        "differenceBBox": null
+      }
+    ]
+  },
+  "PPTX": {
+    "comparedRegion": "x0..1279, y145..681; updated title/chapter/footer excluded, source asset identity retained",
+    "rows": [
+      {
+        "old": 1,
+        "new": 1,
+        "key": "o1",
+        "status": "expected edit",
+        "differenceBBox": [
+          108,
+          532,
+          367,
+          537
+        ]
+      },
+      {
+        "old": 2,
+        "new": 2,
+        "key": "o2",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 3,
+        "new": 3,
+        "key": "o3",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 4,
+        "new": 4,
+        "key": "o4",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 5,
+        "new": 5,
+        "key": "o5",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 6,
+        "new": 6,
+        "key": "o6",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 7,
+        "new": 7,
+        "key": "gcc-phat",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 8,
+        "new": 8,
+        "key": "tdoa-locus",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 9,
+        "new": 9,
+        "key": "srp-candidate",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 10,
+        "new": 10,
+        "key": "srp-sum",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 11,
+        "new": 11,
+        "key": "srp-neural",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 12,
+        "new": 12,
+        "key": "o10",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 13,
+        "new": 13,
+        "key": "o11",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 14,
+        "new": 14,
+        "key": "readout-to-encoder",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 15,
+        "key": "history-map",
+        "status": "new page"
+      },
+      {
+        "new": 16,
+        "key": "history-interfaces",
+        "status": "new page"
+      },
+      {
+        "old": 15,
+        "new": 17,
+        "key": "audio-llm-contract",
+        "status": "expected edit",
+        "differenceBBox": [
+          96,
+          210,
+          1044,
+          485
+        ]
+      },
+      {
+        "old": 33,
+        "new": 18,
+        "key": "lora-reading",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 16,
+        "new": 19,
+        "key": "encoder-criteria",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 17,
+        "new": 20,
+        "key": "encoder-objectives",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 19,
+        "new": 21,
+        "key": "o19",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 22,
+        "key": "history-bat",
+        "status": "new page"
+      },
+      {
+        "old": 76,
+        "new": 23,
+        "key": "o39",
+        "status": "inspect difference",
+        "differenceBBox": [
+          309,
+          457,
+          787,
+          537
+        ]
+      },
+      {
+        "new": 24,
+        "key": "history-encoder-branches",
+        "status": "new page"
+      },
+      {
+        "old": 37,
+        "new": 25,
+        "key": "o41",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 39,
+        "new": 26,
+        "key": "o44",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 74,
+        "new": 27,
+        "key": "o60",
+        "status": "inspect difference",
+        "differenceBBox": [
+          204,
+          457,
+          590,
+          537
+        ]
+      },
+      {
+        "new": 28,
+        "key": "history-extensions",
+        "status": "new page"
+      },
+      {
+        "old": 26,
+        "new": 29,
+        "key": "o51",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 67,
+        "new": 30,
+        "key": "o47",
+        "status": "inspect difference",
+        "differenceBBox": [
+          292,
+          458,
+          315,
+          481
+        ]
+      },
+      {
+        "old": 40,
+        "new": 31,
+        "key": "o48",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 31,
+        "new": 32,
+        "key": "o54",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 32,
+        "new": 33,
+        "key": "o55",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 29,
+        "new": 34,
+        "key": "o57",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 35,
+        "new": 35,
+        "key": "module-evidence",
+        "status": "expected edit",
+        "differenceBBox": [
+          460,
+          405,
+          493,
+          423
+        ]
+      },
+      {
+        "old": 34,
+        "new": 36,
+        "key": "o58",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 37,
+        "key": "history-dynamics",
+        "status": "new page"
+      },
+      {
+        "old": 25,
+        "new": 38,
+        "key": "token-bottleneck",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 75,
+        "new": 39,
+        "key": "o61",
+        "status": "inspect difference",
+        "differenceBBox": [
+          239,
+          457,
+          890,
+          537
+        ]
+      },
+      {
+        "old": 27,
+        "new": 40,
+        "key": "o63",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 28,
+        "new": 41,
+        "key": "o64",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 41,
+        "new": 42,
+        "key": "causal-evaluation",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 42,
+        "new": 43,
+        "key": "o68",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 21,
+        "new": 44,
+        "key": "o73",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 43,
+        "new": 45,
+        "key": "o74",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 44,
+        "new": 46,
+        "key": "o75",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 45,
+        "new": 47,
+        "key": "o71",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "new": 48,
+        "key": "history-synthesis",
+        "status": "new page"
+      },
+      {
+        "old": 47,
+        "new": 49,
+        "key": "closing-tests",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 48,
+        "new": 50,
+        "key": "appendix-index",
+        "status": "expected edit",
+        "differenceBBox": [
+          97,
+          414,
+          767,
+          478
+        ]
+      },
+      {
+        "old": 18,
+        "new": 51,
+        "key": "o29",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 20,
+        "new": 52,
+        "key": "o25",
+        "status": "inspect difference",
+        "differenceBBox": [
+          361,
+          532,
+          411,
+          537
+        ]
+      },
+      {
+        "old": 49,
+        "new": 53,
+        "key": "o12",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 50,
+        "new": 54,
+        "key": "o13",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 51,
+        "new": 55,
+        "key": "o14",
+        "status": "inspect difference",
+        "differenceBBox": [
+          329,
+          533,
+          457,
+          537
+        ]
+      },
+      {
+        "old": 52,
+        "new": 56,
+        "key": "o16",
+        "status": "inspect difference",
+        "differenceBBox": [
+          195,
+          533,
+          540,
+          537
+        ]
+      },
+      {
+        "old": 53,
+        "new": 57,
+        "key": "o15",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 54,
+        "new": 58,
+        "key": "o23",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 55,
+        "new": 59,
+        "key": "o24",
+        "status": "inspect difference",
+        "differenceBBox": [
+          301,
+          532,
+          324,
+          537
+        ]
+      },
+      {
+        "old": 56,
+        "new": 60,
+        "key": "o21",
+        "status": "inspect difference",
+        "differenceBBox": [
+          562,
+          457,
+          711,
+          482
+        ]
+      },
+      {
+        "old": 57,
+        "new": 61,
+        "key": "o30",
+        "status": "inspect difference",
+        "differenceBBox": [
+          164,
+          457,
+          391,
+          537
+        ]
+      },
+      {
+        "old": 22,
+        "new": 62,
+        "key": "o32",
+        "status": "inspect difference",
+        "differenceBBox": [
+          160,
+          458,
+          708,
+          537
+        ]
+      },
+      {
+        "old": 23,
+        "new": 63,
+        "key": "o34",
+        "status": "inspect difference",
+        "differenceBBox": [
+          363,
+          457,
+          493,
+          537
+        ]
+      },
+      {
+        "old": 24,
+        "new": 64,
+        "key": "o35",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 58,
+        "new": 65,
+        "key": "o26",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 59,
+        "new": 66,
+        "key": "o27",
+        "status": "inspect difference",
+        "differenceBBox": [
+          505,
+          457,
+          649,
+          482
+        ]
+      },
+      {
+        "old": 60,
+        "new": 67,
+        "key": "o33",
+        "status": "inspect difference",
+        "differenceBBox": [
+          669,
+          457,
+          715,
+          482
+        ]
+      },
+      {
+        "old": 61,
+        "new": 68,
+        "key": "o36",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 62,
+        "new": 69,
+        "key": "o37",
+        "status": "inspect difference",
+        "differenceBBox": [
+          497,
+          457,
+          644,
+          482
+        ]
+      },
+      {
+        "old": 63,
+        "new": 70,
+        "key": "o65",
+        "status": "inspect difference",
+        "differenceBBox": [
+          325,
+          457,
+          409,
+          482
+        ]
+      },
+      {
+        "old": 64,
+        "new": 71,
+        "key": "o66",
+        "status": "inspect difference",
+        "differenceBBox": [
+          371,
+          457,
+          422,
+          482
+        ]
+      },
+      {
+        "old": 36,
+        "new": 72,
+        "key": "o40",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 38,
+        "new": 73,
+        "key": "o43",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 65,
+        "new": 74,
+        "key": "o45",
+        "status": "inspect difference",
+        "differenceBBox": [
+          334,
+          457,
+          788,
+          482
+        ]
+      },
+      {
+        "old": 66,
+        "new": 75,
+        "key": "o46",
+        "status": "inspect difference",
+        "differenceBBox": [
+          335,
+          457,
+          752,
+          482
+        ]
+      },
+      {
+        "old": 68,
+        "new": 76,
+        "key": "o42",
+        "status": "body identical",
+        "differenceBBox": null
+      },
+      {
+        "old": 69,
+        "new": 77,
+        "key": "o50",
+        "status": "inspect difference",
+        "differenceBBox": [
+          223,
+          457,
+          549,
+          482
+        ]
+      },
+      {
+        "old": 70,
+        "new": 78,
+        "key": "o52",
+        "status": "inspect difference",
+        "differenceBBox": [
+          542,
+          464,
+          597,
+          480
+        ]
+      },
+      {
+        "old": 71,
+        "new": 79,
+        "key": "o56",
+        "status": "inspect difference",
+        "differenceBBox": [
+          666,
+          298,
+          688,
+          323
+        ]
+      },
+      {
+        "old": 72,
+        "new": 80,
+        "key": "o59",
+        "status": "inspect difference",
+        "differenceBBox": [
+          333,
+          533,
+          598,
+          537
+        ]
+      },
+      {
+        "old": 73,
+        "new": 81,
+        "key": "o62",
+        "status": "inspect difference",
+        "differenceBBox": [
+          171,
+          457,
+          595,
+          482
+        ]
+      },
+      {
+        "old": 77,
+        "new": 82,
+        "key": "o69",
+        "status": "inspect difference",
+        "differenceBBox": [
+          419,
+          457,
+          485,
+          482
+        ]
+      },
+      {
+        "old": 78,
+        "new": 83,
+        "key": "o70",
+        "status": "inspect difference",
+        "differenceBBox": [
+          291,
+          457,
+          312,
+          482
+        ]
+      },
+      {
+        "old": 79,
+        "new": 84,
+        "key": "o72",
+        "status": "inspect difference",
+        "differenceBBox": [
+          372,
+          457,
+          515,
+          481
+        ]
+      },
+      {
+        "old": 80,
+        "new": 85,
+        "key": "o76",
+        "status": "inspect difference",
+        "differenceBBox": [
+          566,
+          457,
+          588,
+          482
+        ]
+      }
+    ]
+  }
+}

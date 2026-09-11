@@ -1,0 +1,12 @@
+{
+  "kind": "computed synthetic example, not a reported experiment",
+  "sharedData": "localization-simulation.npz",
+  "pair": [
+    2,
+    1
+  ],
+  "sign": "tau21=t2-t1; G21=X2*conj(X1)",
+  "estimatedTau21Ms": -1.25390625,
+  "display": "shared amplitude scale for both channels; cross-spectrum magnitude and GCC peak each normalized for display",
+  "source": "https://www.mathworks.com/help/phased/ref/gccphat.html"
+}

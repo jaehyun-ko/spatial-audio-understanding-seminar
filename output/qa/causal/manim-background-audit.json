@@ -1,0 +1,112 @@
+[
+  {
+    "slide": 2,
+    "file": "public/animations/intro-sequence/s02.mp4",
+    "frames": 567,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 3,
+    "file": "public/animations/intro-sequence/s03.mp4",
+    "frames": 582,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 4,
+    "file": "public/animations/intro-sequence/s04.mp4",
+    "frames": 654,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 5,
+    "file": "public/animations/intro-sequence/s05.mp4",
+    "frames": 636,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 6,
+    "file": "public/animations/intro-sequence/s06.mp4",
+    "frames": 645,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 2,
+    "file": "public/animations/intro-sequence/s02.webm",
+    "frames": 567,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 3,
+    "file": "public/animations/intro-sequence/s03.webm",
+    "frames": 582,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 4,
+    "file": "public/animations/intro-sequence/s04.webm",
+    "frames": 654,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 5,
+    "file": "public/animations/intro-sequence/s05.webm",
+    "frames": 636,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  },
+  {
+    "slide": 6,
+    "file": "public/animations/intro-sequence/s06.webm",
+    "frames": 645,
+    "minimumCornerRGB": [
+      245,
+      247,
+      249
+    ],
+    "backgroundLightEveryFrame": true
+  }
+]

@@ -4,7 +4,10 @@ import mistune
 
 ROOT = Path(__file__).resolve().parents[1]
 text = (ROOT / 'slides.md').read_text(encoding='utf-8')
-style = (ROOT / 'style.css').read_text(encoding='utf-8').replace('.slidev-layout', '.slide')
+# Legacy HTML preview only. Actual layout/component verification uses Slidev.
+style = '\n'.join((ROOT / 'styles' / name).read_text(encoding='utf-8')
+                  for name in ['tokens.css', 'legacy.css', 'seminar.css'])
+style = style.replace('.slidev-layout', '.slide').replace("url('/fonts/", "url('../public/fonts/")
 
 # Remove global frontmatter
 m = re.match(r'^---\n[\s\S]*?\n---\n', text)
@@ -52,7 +55,7 @@ for i, chunk in enumerate(chunks, 1):
     classes = ['slide']
     if meta.get('layout') == 'section': classes.append('section')
     if meta.get('class'): classes.extend(meta['class'].split())
-    content = render_markdown(source)
+    content = render_markdown(source).replace('src="/', 'src="../public/')
     doc = f'''<!doctype html><html><head><meta charset="utf-8"><style>{base_css}</style></head>
 <body><section class="{' '.join(classes)}">{content}<div class="page-no">{i}/{len(chunks)}</div></section></body></html>'''
     path = out_dir / f'slide-{i:02d}.html'

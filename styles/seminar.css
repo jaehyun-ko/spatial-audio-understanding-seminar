@@ -1,0 +1,313 @@
+/* New frame geometry is isolated from the existing 42-slide layouts. */
+html body .slidev-layout.seminar {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-rows: var(--header-height) minmax(0, 1fr) var(--takeaway-height) var(--source-height);
+  gap: var(--space-2);
+  width: 100%;
+  height: 100%;
+  padding: var(--margin-top) var(--margin-x) var(--margin-bottom);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: var(--type-body);
+  font-weight: var(--weight-body);
+  line-height: 1.42;
+  letter-spacing: -.02em;
+  font-synthesis: none;
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+.slidev-layout.seminar::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: var(--margin-top);
+  left: 0;
+  width: 5px;
+  height: 56px;
+  background: var(--color-signal);
+}
+.seminar :where(header, main, aside, footer, figure, section, div) { min-width: 0; min-height: 0; }
+html body .seminar h1,
+html body .seminar h2 {
+  margin: 0;
+  max-width: none;
+  color: var(--color-ink);
+  font-size: var(--type-title);
+  font-weight: var(--weight-title);
+  line-height: 1.13;
+  letter-spacing: -.04em;
+  text-wrap: pretty;
+}
+html body .seminar h3 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--type-body);
+  font-weight: var(--weight-title);
+  line-height: 1.3;
+}
+html body .seminar p { margin: 0; line-height: inherit; }
+html body .seminar p + p { margin-top: var(--space-3); }
+html body .seminar :where(b, strong) { font-weight: var(--weight-title); }
+html body .seminar a { color: inherit; text-decoration: none; }
+html body .seminar a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.seminar-header { display: flex; align-items: flex-start; padding-top: 1px; }
+.seminar .seminar-position {
+  /* Keep the absolute chapter label in its own paint layer during navigation. */
+  transform: translateZ(0);
+  position: absolute;
+  top: 18px;
+  left: var(--margin-x);
+  margin: 0;
+  color: var(--color-secondary);
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.seminar-body { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-6); }
+.seminar-body:has(.seminar-aside) { grid-template-columns: minmax(0, 1fr) 328px; }
+.seminar--focus .seminar-body:has(.seminar-aside) { grid-template-columns: minmax(0, 1.18fr) minmax(300px, .82fr); gap: 56px; }
+.seminar--method .seminar-body:has(.seminar-aside) { grid-template-columns: minmax(0, 1fr) 336px; }
+.seminar-primary { height: 100%; }
+.seminar-aside {
+  align-self: center;
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--color-rule);
+  font-size: var(--type-aside);
+  line-height: 1.45;
+}
+.seminar-aside > :where(section, div) + :where(section, div) { margin-top: var(--space-4); }
+.seminar-aside p { color: var(--color-secondary); }
+.seminar-aside .seminar-label { margin-bottom: var(--space-1); }
+.seminar-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--color-accent);
+  font-size: var(--type-label);
+  font-weight: var(--weight-label);
+  line-height: 1.3;
+}
+.seminar-condition { color: var(--color-secondary); font-size: var(--type-caption); line-height: 1.4; }
+.seminar-caution, .seminar-aside .seminar-caution { color: var(--color-caution); }
+.semantic-input { color: var(--color-accent); }
+.semantic-geometry { color: var(--color-geometry); }
+.semantic-result { color: var(--color-signal); }
+.semantic-focus { color: var(--color-focus); }
+.semantic-negative { color: var(--color-negative); }
+.seminar-takeaway {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 var(--space-3);
+  border-top: 1px solid var(--color-rule);
+  font-size: var(--type-body);
+  line-height: 1.25;
+}
+.seminar-takeaway::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 5px;
+  height: 24px;
+  background: var(--color-signal);
+}
+.seminar-takeaway:empty { border: 0; }
+.seminar-takeaway:empty::before { display: none; }
+.seminar-takeaway strong { color: var(--color-accent); }
+html body .seminar-source {
+  position: static;
+  align-self: end;
+  max-width: calc(100% - 64px);
+  margin: 0;
+  color: var(--color-secondary);
+  font-size: var(--type-citation);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+.seminar-figure { display: flex; flex-direction: column; gap: var(--space-2); width: 100%; height: 100%; margin: 0; }
+.seminar-figure-art {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+}
+html body .seminar-figure img { display: block; width: 100%; height: 100%; max-height: 100%; object-fit: contain; }
+.seminar-figure figcaption { flex: none; color: var(--color-secondary); font-size: var(--type-caption); line-height: 1.35; }
+.seminar--figure .seminar-primary { padding: 0; }
+.seminar--figure .seminar-figure-art { padding: 0; border-color: transparent; background: transparent; }
+.seminar-manim {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+}
+.seminar-manim-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: var(--color-paper);
+}
+.seminar--focus .seminar-primary { display: flex; flex-direction: column; justify-content: center; gap: var(--space-4); }
+html body .slidev-layout.seminar.seminar--focus {
+  color: var(--color-ink);
+  background: var(--color-paper);
+}
+.slidev-layout.seminar--focus::before { background: var(--color-signal); }
+html body .slidev-layout.seminar.seminar--focus :where(h1, h2) { color: var(--color-ink); }
+.seminar--focus .seminar-aside { border-left-color: var(--color-rule); }
+.seminar--focus .seminar-aside p { color: var(--color-secondary); }
+.seminar--focus .seminar-label { color: var(--color-signal); }
+.seminar--focus .seminar-takeaway { border-top-color: var(--color-rule); }
+.seminar--focus .seminar-takeaway::before { background: var(--color-signal); }
+.seminar--focus .seminar-takeaway strong { color: var(--color-focus); }
+html body .seminar--focus .seminar-source { color: var(--color-secondary); }
+.seminar--focus .semantic-input { color: var(--color-accent); }
+.seminar--focus .semantic-geometry { color: var(--color-geometry); }
+.seminar--focus .semantic-result { color: var(--color-signal); }
+.seminar--focus .semantic-focus { color: var(--color-focus); }
+.seminar--focus .semantic-negative { color: var(--color-negative); }
+html body .seminar .seminar-question { font-size: var(--type-question); line-height: 1.3; letter-spacing: -.035em; font-weight: 600; }
+.seminar-question strong { color: var(--color-accent); }
+.seminar-definition { padding-top: var(--space-2); border-top: 1px solid var(--color-rule); }
+.seminar-definition > p { margin-top: var(--space-1); }
+/* Tables remain native/editable. Values, units and good direction are explicit. */
+html body .seminar table { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0; color: var(--color-ink); font-size: var(--type-table); line-height: 1.35; }
+html body .seminar table :where(th, td) { padding: 20px 16px; border: 0; border-bottom: 1px solid var(--color-rule); text-align: left; vertical-align: middle; background: none; }
+html body .seminar table thead th { padding-top: 14px; padding-bottom: 14px; border-top: 2px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); color: var(--color-secondary); font-size: var(--type-label); font-weight: var(--weight-label); }
+html body .seminar table tbody th { color: var(--color-ink); font-size: inherit; font-weight: 600; }
+html body .seminar table :where(th, td):first-child { padding-left: 0; }
+html body .seminar table :where(th, td):last-child { padding-right: 0; }
+html body .seminar .seminar-results .is-numeric { text-align: right; font-variant-numeric: tabular-nums lining-nums; }
+html body .seminar .seminar-results td.is-numeric { font-size: var(--type-number); }
+html body .seminar .seminar-results .is-emphasis :where(th, td) { font-weight: var(--weight-title); color: var(--color-accent); background: var(--color-accent-soft); }
+html body .seminar .seminar-results .is-emphasis :where(th, td):first-child { padding-left: 12px; }
+html body .seminar .seminar-results .is-emphasis :where(th, td):last-child { padding-right: 12px; }
+.seminar table caption { text-align: left; margin-bottom: var(--space-3); color: var(--color-secondary); font-size: var(--type-context); line-height:1.35; font-weight:400; }
+.seminar--result .seminar-primary { display: flex; flex-direction: column; justify-content: center; }
+.seminar--compare .seminar-body { align-items: start; }
+html body .seminar .seminar-comparison { font-size: var(--type-comparison); }
+html body .seminar .seminar-comparison td { padding-top: 17px; padding-bottom: 17px; }
+/* Structural slides use the same left axis and citation position. */
+html body .slidev-layout.seminar-cover { grid-template-rows: 64px minmax(0, 1fr) 112px var(--source-height); color: var(--color-ink); background: var(--color-paper); overflow: hidden; }
+.slidev-layout.seminar-cover::before { background: var(--color-signal); }
+.slidev-layout.seminar-cover::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: -70px;
+  bottom: 18px;
+  width: 760px;
+  height: 350px;
+  background: url('/cover-wave-light.svg') center / contain no-repeat;
+  opacity: .50;
+}
+.seminar-cover-identity { display: flex; align-items: flex-start; }
+.seminar-cover-identity img { width: 238px; height: auto; }
+.seminar-cover-title { align-self: center; position: relative; z-index: 1; max-width: 760px; }
+html body .seminar.seminar-cover :where(h1, h2) { font-size: var(--type-cover); line-height: 1.07; color: var(--color-ink); letter-spacing: -.045em; }
+.seminar-cover-subtitle { align-self: start; position: relative; z-index: 1; max-width: 660px; color: var(--color-secondary); font-size: var(--type-subtitle); line-height: 1.45; }
+html body .seminar-cover .seminar-source { color: var(--color-secondary); }
+html body .slidev-layout.seminar-section { grid-template-rows: 60px minmax(0, 1fr) 112px var(--source-height); color: var(--color-ink); background: var(--color-paper); overflow: hidden; }
+.slidev-layout.seminar-section::before { background: var(--color-signal); }
+.slidev-layout.seminar-section::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: -300px;
+  top: 100px;
+  width: 820px;
+  height: 360px;
+  background: url('/cover-wave-light.svg') center / contain no-repeat;
+  opacity: .2;
+  clip-path: inset(0 0 92px 0);
+}
+.seminar-section-context { color: var(--color-signal); font-size: var(--type-aside); font-weight: 600; }
+.seminar-section-title { align-self: center; position: relative; z-index: 1; }
+html body .seminar.seminar-section :where(h1, h2) { max-width: 920px; font-size: var(--type-section); line-height: 1.22; font-weight: 600; color: var(--color-ink); }
+.seminar-section-bridge { position: relative; z-index: 1; border-top: 1px solid var(--color-rule); padding-top: var(--space-3); color: var(--color-secondary); font-size: var(--type-body); }
+html body .seminar-section .seminar-source { color: var(--color-secondary); }
+.seminar--closing .seminar-primary { display: flex; align-items: center; }
+.seminar-claims { width: 100%; margin: 0; }
+.seminar-claims { counter-reset: claim; }
+.seminar-claims > div { counter-increment: claim; display: grid; grid-template-columns: 48px 230px 1fr; gap: var(--space-3); align-items: baseline; padding: 24px 0; border-bottom: 1px solid var(--color-rule); }
+.seminar-claims > div::before { content: '0' counter(claim); color: var(--color-signal); font-size: var(--type-label); font-weight: 700; font-variant-numeric: tabular-nums; }
+.seminar-claims > div:first-child { border-top: 1px solid var(--color-rule); }
+.seminar-claims dt { color: var(--color-accent); font-weight: 600; }
+.seminar-claims dd { margin: 0; }
+html body .slidev-page:has(.seminar) .global-page-number { right: var(--margin-x); bottom: var(--margin-bottom); color: var(--color-secondary); font-family: var(--font-sans); font-size: var(--type-citation); }
+html body .slidev-page:has(.seminar-cover) .global-page-number,
+html body .slidev-page:has(.seminar-section) .global-page-number,
+html body .slidev-page:has(.seminar--focus) .global-page-number { color: var(--color-secondary); }
+
+/* Compact synthesis tables preserve readable text within the 404px body. */
+html body .seminar table.seminar-compact { font-size: var(--type-compact); line-height: 1.25; }
+html body .seminar table.seminar-compact :where(th,td) { padding: 9px 12px; }
+html body .seminar table.seminar-compact thead th { font-size: var(--type-label); padding: 12px; }
+html body .seminar table.seminar-compact :where(th,td):first-child { padding-left: 0; }
+
+/* Opening concepts use semantic text layouts with visible labels. */
+.p1-scene { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; align-items:center; height:100%; }
+.p1-node { border-top:2px solid var(--color-rule); padding-top:24px; }
+.p1-node > strong { display:block; font-size:var(--type-concept); line-height:1.25; margin:16px 0; }
+.p1-node > p { font-size:var(--type-aside); line-height:1.45; color:var(--color-secondary); }
+.seminar--focus .p1-node { border-color:var(--color-rule); }
+.seminar--focus .p1-node > p { color:var(--color-secondary); }
+.p1-flow { display:flex; flex-direction:column; justify-content:center; height:100%; gap:24px; }
+.p1-step { display:grid; grid-template-columns:240px 1fr; gap:24px; padding:16px 0; border-bottom:1px solid var(--color-rule); align-items:center; }
+.p1-step .seminar-label { margin:0; }
+.p1-step p { font-size:var(--type-body); }
+.seminar--focus .p1-step { border-color:var(--color-rule); }
+
+/* One light palette and explicit hierarchy across every part of the seminar. */
+html body .seminar .seminar-label { color:var(--color-signal); }
+html body .seminar .seminar-label.semantic-negative { color:var(--color-negative); }
+html body .seminar table caption { text-align:left; caption-side:top; }
+html body .seminar table tbody th[scope="row"] { font-weight:600; }
+html body .seminar .seminar-results .is-numeric { text-align:right; font-variant-numeric:tabular-nums lining-nums; }
+html body .seminar .seminar-results .is-emphasis :where(th,td),
+html body .seminar .seminar-results :where(th,td).is-emphasis { color:var(--color-accent); background:var(--color-accent-soft); }
+html body .seminar .seminar-results .is-emphasis td.is-numeric,
+html body .seminar .seminar-results td.is-emphasis { font-weight:700; }
+html body .seminar table.seminar-results--dense { line-height:1.25; }
+html body .seminar table.seminar-results--dense :where(th,td) { padding-top:10px; padding-bottom:10px; }
+html body .seminar table.seminar-results--dense td.is-numeric { font-size:var(--type-number-dense); }
+html body .seminar .seminar-table-note { margin-top:var(--space-2); color:var(--color-secondary); font-size:var(--type-context); line-height:1.35; }
+html body .seminar .seminar-support { color:var(--color-secondary); font-size:var(--type-aside); line-height:1.45; }
+html body .seminar .seminar-figure-note { color:var(--color-secondary); font-size:var(--type-caption); line-height:1.35; }
+html body .seminar .seminar-lead { font-size:var(--type-body); }
+html body .seminar .seminar-concept { font-size:var(--type-concept); line-height:1.3; }
+.seminar-scene-panel { border-top:2px solid var(--color-rule); padding-top:var(--space-3); }
+.seminar-model-block { border:1px solid var(--color-rule); padding:var(--space-3); }
+.seminar-math { display:inline-block; white-space:nowrap; vertical-align:baseline; font-weight:400; }
+.seminar-math .katex { font-size:1.05em; color:inherit; }
+.seminar-math .katex-display { margin:0; }
+.seminar-cover-identity .seminar-brand { display:flex;align-items:center;gap:16px; }
+.seminar-cover-identity .seminar-brand img { width:44px;height:52px;object-fit:contain; }
+.seminar-brand-name { font-size:18px;font-weight:600;line-height:1.3;color:var(--color-ink); }
+.seminar-brand-detail { font-size:14px;line-height:1.3;color:var(--color-secondary); }
+
+.seminar-array-observation { display:flex;flex-direction:column;gap:12px; }
+.seminar-array-observation > span { white-space:nowrap; }
+
+/* Scientific comparisons use direct-labeled graphs and compact protocol notes. */
+.seminar-result-visual { display:grid;grid-template-rows:auto minmax(0,1fr);gap:12px;height:100%; }
+.seminar-result-visual:has(.seminar-chart-note) { grid-template-rows:auto minmax(0,1fr) auto; }
+html body .seminar .seminar-chart-context,
+html body .seminar .seminar-chart-note { font-size:var(--type-context);line-height:1.3;color:var(--color-secondary);margin:0; }
+.seminar-result-visual .seminar-figure-art { padding:0;border:0;background:transparent; }

@@ -1,0 +1,265 @@
+{
+  "kind": "authored scientific teaching figure from direct-path synthetic signals",
+  "not": "not measured room data; not published experimental numbers; not learned Neural-SRP output",
+  "coordinates": "height-fixed 2D section; microphone and source coordinates in metres",
+  "microphones_m": [
+    [
+      -0.65,
+      0.0
+    ],
+    [
+      0.65,
+      0.0
+    ],
+    [
+      -0.5,
+      2.8
+    ]
+  ],
+  "source_m": [
+    0.6,
+    1.6
+  ],
+  "sound_speed_m_s": 343.0,
+  "sign": "tau_ij=t_i-t_j=(distance_i-distance_j)/c; tau21=t2-t1",
+  "signal": {
+    "fs_hz": 16000,
+    "samples": 8192,
+    "seed": 20260911,
+    "burst_center_s": 0.08,
+    "gaussian_envelope_sigma_s": 0.006,
+    "passband_hz": [
+      100,
+      4000
+    ],
+    "fractional_delay": "exact spectral circular shift, 512 ms period",
+    "gcc": "IFFT[X_i conj(X_j)/abs(X_i conj(X_j))] on retained passband; zero otherwise",
+    "interpolation": 16,
+    "normalization": "2 times passband-bin count divided by inverse FFT length",
+    "data_file": "localization-simulation.npz"
+  },
+  "true_pair_delays_ms": {
+    "21": -1.2525160089401841,
+    "31": -1.1735043463986143,
+    "32": 0.07901166254156972
+  },
+  "sources": [
+    {
+      "title": "Neural-SRP, §III-A, Eqs. 3–6",
+      "url": "https://arxiv.org/html/2403.09455v1"
+    },
+    {
+      "title": "MathWorks, gccphat",
+      "url": "https://www.mathworks.com/help/phased/ref/gccphat.html"
+    }
+  ],
+  "labels": [
+    {
+      "text": "후보 좌표",
+      "bounds": [
+        160.0,
+        359.68,
+        258.0,
+        398.32
+      ]
+    },
+    {
+      "text": "거리 → 기대 지연",
+      "bounds": [
+        471.5,
+        359.68,
+        652.5,
+        398.32
+      ]
+    },
+    {
+      "text": "그 지연의 상관값",
+      "bounds": [
+        853.5,
+        359.68,
+        1026.5,
+        398.32
+      ]
+    },
+    {
+      "text": "x [m]",
+      "bounds": [
+        330.5,
+        37.69,
+        375.5,
+        66.31
+      ]
+    },
+    {
+      "text": "y [m]",
+      "bounds": [
+        12.0,
+        322.69,
+        58.0,
+        351.31
+      ]
+    },
+    {
+      "text": "$p_A=(0.6,1.6)$",
+      "bounds": [
+        479.0,
+        309.11,
+        621.0,
+        344.89
+      ]
+    },
+    {
+      "text": "$(1.601-2.030)/343$",
+      "bounds": [
+        449.5,
+        273.11,
+        650.5,
+        308.89
+      ]
+    },
+    {
+      "text": "$\\tau_{21}=-1.253\\;\\mathrm{ms}$",
+      "bounds": [
+        463.5,
+        230.39,
+        636.5,
+        267.61
+      ]
+    },
+    {
+      "text": "$p_B=(-0.4,1.3)$",
+      "bounds": [
+        470.0,
+        151.11,
+        630.0,
+        186.89
+      ]
+    },
+    {
+      "text": "$(1.671-1.324)/343$",
+      "bounds": [
+        449.5,
+        115.11,
+        650.5,
+        150.89
+      ]
+    },
+    {
+      "text": "$\\tau_{21}=+1.012\\;\\mathrm{ms}$",
+      "bounds": [
+        463.5,
+        72.39,
+        636.5,
+        109.61
+      ]
+    },
+    {
+      "text": "$\\tau$ [ms]",
+      "bounds": [
+        1058.0,
+        51.69,
+        1112.0,
+        80.31
+      ]
+    },
+    {
+      "text": "$R_{21}(p)=C_{21}^{\\mathrm{PHAT}}(\\tau_{21}(p))$",
+      "bounds": [
+        819.0,
+        11.96,
+        1079.0,
+        52.04
+      ]
+    },
+    {
+      "text": "A는 생성에 사용한 음원 위치",
+      "bounds": [
+        125.0,
+        2.97,
+        357.0,
+        33.03
+      ]
+    },
+    {
+      "text": "$p_A$",
+      "bounds": [
+        283.7,
+        297.29,
+        309.7,
+        323.68
+      ]
+    },
+    {
+      "text": "$p_B$",
+      "bounds": [
+        176.52,
+        265.13,
+        202.52,
+        291.52
+      ]
+    },
+    {
+      "text": "$M_1$",
+      "bounds": [
+        124.11,
+        87.57,
+        153.11,
+        111.18
+      ]
+    },
+    {
+      "text": "$M_2$",
+      "bounds": [
+        263.45,
+        87.57,
+        292.45,
+        111.18
+      ]
+    },
+    {
+      "text": "A: 1.00",
+      "bounds": [
+        897.33,
+        314.85,
+        974.94,
+        337.07
+      ]
+    },
+    {
+      "text": "B: -0.01",
+      "bounds": [
+        999.57,
+        173.52,
+        1085.57,
+        195.74
+      ]
+    }
+  ],
+  "candidate_rows": [
+    {
+      "coordinate_m": [
+        0.6,
+        1.6
+      ],
+      "distances_m": [
+        2.0303940504246953,
+        1.6007810593582124
+      ],
+      "predicted_delay_ms": -1.2525160089401837,
+      "gcc_score": 0.9996221422133286
+    },
+    {
+      "coordinate_m": [
+        -0.4,
+        1.3
+      ],
+      "distances_m": [
+        1.3238202294873727,
+        1.6710774967068405
+      ],
+      "predicted_delay_ms": 1.012411857782705,
+      "gcc_score": -0.011013055687506015
+    }
+  ],
+  "gcc_curve": "same actual synthetic GCC-PHAT reused in all spatial maps"
+}

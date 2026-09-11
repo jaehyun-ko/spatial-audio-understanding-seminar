@@ -1,0 +1,109 @@
+{
+  "completed": "2026-09-11",
+  "revision": "mc-audio-lm-history",
+  "slides": 85,
+  "mainSlides": 49,
+  "appendixSlides": 36,
+  "papers": 27,
+  "backgroundContextPapers": [
+    "Pengi 2023",
+    "LoRA"
+  ],
+  "newResearchHistoryDiagrams": 6,
+  "newResearchHistorySummaryTables": 1,
+  "preservedResultValues": 99,
+  "additionalReportedAdapterValues": 3,
+  "nativeTables": 1,
+  "nativeTextRuns": 728,
+  "speakerNotes": 85,
+  "standaloneEquationImages": 14,
+  "theme": "light",
+  "canvas": "#f6f8fa",
+  "math": "KaTeX with full glyph bounds in PPTX; vector math in diagrams; MathTex in unchanged Manim.",
+  "pptxGraphics": "Native editable text and S48 synthesis table; scientific diagrams/plots/equations are rendered images with retained sources.",
+  "activeManimSlides": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "pptxAndPdfAnimation": "Static final explanation posters; live animations in Slidev.",
+  "visualQA": {
+    "requested": 85,
+    "captured": 85,
+    "captureErrors": 0,
+    "slidesWithFindings": 0,
+    "findings": 0,
+    "runtimeErrors": 0,
+    "runtimeWarnings": 85
+  },
+  "visualQAWarnings": "Headless wake-lock permission warnings only. Intentional off-canvas decorative waves on cover and appendix divider.",
+  "pptxValidationReceipt": "output/qa/mc-history/pptx-validation.json",
+  "sourceResultPreservation": "output/qa/mc-history/result-preservation.json",
+  "packageAndNotesAudit": "output/qa/mc-history/package-audit.json",
+  "renderComparison": "output/qa/mc-history/render-diff.json",
+  "nativeRenderQA": "All 85 PDF/PPTX pages rendered. Preserved body regions compared against localization release; new and changed pages visually reviewed. 28 localized native text raster differences verified against identical text/geometry/styles. LibreOffice used; Microsoft PowerPoint not available.",
+  "narrativeQA": "Primary-source chronology and E/P/LM interfaces checked. Six diagrams plus native summary table reviewed. Stale navigation in eight note pages corrected; numerical evidence retained.",
+  "orderManifest": "plans/CAUSAL_DECK_ORDER.json",
+  "historyEvidence": "plans/MC_AUDIO_LM_HISTORY.md",
+  "manimBackgroundAudit": "output/qa/causal/manim-background-audit.json",
+  "manimAuditScope": "Five active light-background clips unchanged.",
+  "files": [
+    {
+      "path": "output/pptx/spatial-audio-understanding-mc-history-complete.pptx",
+      "bytes": 15875095,
+      "sha256": "090c1c4aa096aa2eb03605fb482790991ebdbaa143bad3a3180a85968cb5e56a"
+    },
+    {
+      "path": "output/pdf/spatial-audio-understanding-mc-history.pdf",
+      "bytes": 11918846,
+      "sha256": "283304eeaf01b175466b404994325d3530773e7a45f8be0307ac022b58a005a3"
+    },
+    {
+      "path": "output/pptx/spatial-audio-understanding.pptx",
+      "bytes": 15875095,
+      "sha256": "090c1c4aa096aa2eb03605fb482790991ebdbaa143bad3a3180a85968cb5e56a"
+    },
+    {
+      "path": "output/pdf/spatial-audio-understanding.pdf",
+      "bytes": 11918846,
+      "sha256": "283304eeaf01b175466b404994325d3530773e7a45f8be0307ac022b58a005a3"
+    },
+    {
+      "path": "spatial-audio-lineage.pdf",
+      "bytes": 11918846,
+      "sha256": "283304eeaf01b175466b404994325d3530773e7a45f8be0307ac022b58a005a3"
+    },
+    {
+      "path": "slides.md",
+      "bytes": 231676,
+      "sha256": "ef4f04729dd10ff6a7feda5b85f4f1a0e7fd3ce87819f8db5896765b1f77fcc6"
+    },
+    {
+      "path": "plans/CAUSAL_DECK_ORDER.json",
+      "bytes": 39958,
+      "sha256": "e5952eaefde26d64ee1bbd6f60e333bd229e9c8b8fe287543034aa34869b28bd"
+    },
+    {
+      "path": "plans/MC_AUDIO_LM_HISTORY.md",
+      "bytes": 15067,
+      "sha256": "3f0823775362f9e1d1a31b5acd8780fab71a1c35c24665c4d7deaa0c7b90c14d"
+    },
+    {
+      "path": "plans/HISTORY_NOTE_CORRECTIONS.json",
+      "bytes": 2082,
+      "sha256": "ab34c583c2c87b2553f0ab0c9752d9523c136b15ce282b572d00c11539b72a90"
+    },
+    {
+      "path": "plans/RESULTS_VISUAL_DATA.json",
+      "bytes": 18757,
+      "sha256": "9e8f64bb01c8f5f1c626cfcaa19be8cbc9b6b512ade4252be65d3834f371e9cf"
+    },
+    {
+      "path": "plans/CAUSAL_ADAPTER_DATA.json",
+      "bytes": 833,
+      "sha256": "9922d7acf4e50500873d5b9ababf6f7b176243b5cd7f22c4b2fd23221363bdbf"
+    }
+  ]
+}

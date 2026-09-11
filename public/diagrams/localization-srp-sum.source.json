@@ -1,0 +1,293 @@
+{
+  "kind": "authored scientific teaching figure from direct-path synthetic signals",
+  "not": "not measured room data; not published experimental numbers; not learned Neural-SRP output",
+  "coordinates": "height-fixed 2D section; microphone and source coordinates in metres",
+  "microphones_m": [
+    [
+      -0.65,
+      0.0
+    ],
+    [
+      0.65,
+      0.0
+    ],
+    [
+      -0.5,
+      2.8
+    ]
+  ],
+  "source_m": [
+    0.6,
+    1.6
+  ],
+  "sound_speed_m_s": 343.0,
+  "sign": "tau_ij=t_i-t_j=(distance_i-distance_j)/c; tau21=t2-t1",
+  "signal": {
+    "fs_hz": 16000,
+    "samples": 8192,
+    "seed": 20260911,
+    "burst_center_s": 0.08,
+    "gaussian_envelope_sigma_s": 0.006,
+    "passband_hz": [
+      100,
+      4000
+    ],
+    "fractional_delay": "exact spectral circular shift, 512 ms period",
+    "gcc": "IFFT[X_i conj(X_j)/abs(X_i conj(X_j))] on retained passband; zero otherwise",
+    "interpolation": 16,
+    "normalization": "2 times passband-bin count divided by inverse FFT length",
+    "data_file": "localization-simulation.npz"
+  },
+  "true_pair_delays_ms": {
+    "21": -1.2525160089401841,
+    "31": -1.1735043463986143,
+    "32": 0.07901166254156972
+  },
+  "sources": [
+    {
+      "title": "Neural-SRP, §III-A, Eqs. 3–6",
+      "url": "https://arxiv.org/html/2403.09455v1"
+    },
+    {
+      "title": "MathWorks, gccphat",
+      "url": "https://www.mathworks.com/help/phased/ref/gccphat.html"
+    }
+  ],
+  "labels": [
+    {
+      "text": "$R_{21}(p)$",
+      "bounds": [
+        107.64,
+        355.96,
+        178.64,
+        396.04
+      ]
+    },
+    {
+      "text": "+",
+      "bounds": [
+        273.5,
+        200.1,
+        294.5,
+        245.9
+      ]
+    },
+    {
+      "text": "$R_{31}(p)$",
+      "bounds": [
+        380.28,
+        355.96,
+        451.28,
+        396.04
+      ]
+    },
+    {
+      "text": "+",
+      "bounds": [
+        546.14,
+        200.1,
+        567.14,
+        245.9
+      ]
+    },
+    {
+      "text": "$R_{32}(p)$",
+      "bounds": [
+        652.92,
+        355.96,
+        723.92,
+        396.04
+      ]
+    },
+    {
+      "text": "=",
+      "bounds": [
+        818.78,
+        200.1,
+        839.78,
+        245.9
+      ]
+    },
+    {
+      "text": "$R(p)=\\sum R_{ij}(p)$",
+      "bounds": [
+        877.06,
+        355.96,
+        1045.06,
+        396.04
+      ]
+    },
+    {
+      "text": "동일 좌표 격자 · 모든 지도에 같은 색 척도",
+      "bounds": [
+        401.5,
+        46.97,
+        734.5,
+        77.03
+      ]
+    },
+    {
+      "text": "높이 고정",
+      "bounds": [
+        56.0,
+        10.69,
+        129.0,
+        39.31
+      ]
+    },
+    {
+      "text": "$\\hat p=\\arg\\max_{p\\in\\mathcal{P}} R(p)$",
+      "bounds": [
+        365.5,
+        1.96,
+        554.5,
+        42.04
+      ]
+    },
+    {
+      "text": "$\\hat p=(0.60,\\,1.60)\\;\\mathrm{m}$",
+      "bounds": [
+        721.0,
+        2.96,
+        931.0,
+        43.04
+      ]
+    },
+    {
+      "text": "$M_2$",
+      "bounds": [
+        173.26,
+        92.95,
+        194.26,
+        109.62
+      ]
+    },
+    {
+      "text": "$M_1$",
+      "bounds": [
+        77.24,
+        92.95,
+        98.24,
+        109.62
+      ]
+    },
+    {
+      "text": "$M_3$",
+      "bounds": [
+        360.96,
+        299.75,
+        381.96,
+        316.42
+      ]
+    },
+    {
+      "text": "$M_1$",
+      "bounds": [
+        349.88,
+        92.95,
+        370.88,
+        109.62
+      ]
+    },
+    {
+      "text": "$M_3$",
+      "bounds": [
+        633.6,
+        299.75,
+        654.6,
+        316.42
+      ]
+    },
+    {
+      "text": "$M_2$",
+      "bounds": [
+        718.54,
+        92.95,
+        739.54,
+        109.62
+      ]
+    },
+    {
+      "text": "$M_1$",
+      "bounds": [
+        895.16,
+        92.95,
+        916.16,
+        109.62
+      ]
+    },
+    {
+      "text": "$M_2$",
+      "bounds": [
+        991.18,
+        92.95,
+        1012.18,
+        109.62
+      ]
+    },
+    {
+      "text": "$M_3$",
+      "bounds": [
+        906.24,
+        299.75,
+        927.24,
+        316.42
+      ]
+    },
+    {
+      "text": "$\\hat p$",
+      "bounds": [
+        1014.65,
+        235.51,
+        1028.65,
+        260.52
+      ]
+    }
+  ],
+  "grid": {
+    "x_bounds_m": [
+      -1.2,
+      1.4
+    ],
+    "y_bounds_m": [
+      -0.2,
+      3.0
+    ],
+    "shape": [
+      321,
+      261
+    ],
+    "spacing_m": 0.01
+  },
+  "map_formula": "R_ij(p)=linear interpolation of computed GCC-PHAT at tau_ij(p)",
+  "sum_formula": "R=R21+R31+R32",
+  "shared_color_limits": [
+    -1,
+    3
+  ],
+  "grid_argmax_m": [
+    0.5999999999999999,
+    1.6
+  ],
+  "source_error_m": 1.1102230246251565e-16,
+  "map_extrema": [
+    {
+      "pair": "21",
+      "min": -0.2485509069896862,
+      "max": 0.9997908710064982
+    },
+    {
+      "pair": "31",
+      "min": -0.24853644973902514,
+      "max": 0.9996999232852549
+    },
+    {
+      "pair": "32",
+      "min": -0.2485517251614318,
+      "max": 0.9999042641165279
+    }
+  ],
+  "summed_min": -0.526769923450523,
+  "summed_max": 2.998932174361359,
+  "caveat": "three non-collinear microphones disambiguate this synthetic scene on this restricted 2D grid; not a general 3D uniqueness guarantee"
+}

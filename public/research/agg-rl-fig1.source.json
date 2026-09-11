@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "sourceURL": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ee860a9fa65a55a335754c557a5211de-Paper-Conference.pdf",
+  "inputPDF": {
+    "path": "/Volumes/MacData/repos/spatial-audio-lineage-slidev-v2/tmp/agg-design-source.pdf",
+    "sha256": "f4400557a744a82df602e49cb6672717cf196326dd5c716b857200d67969d801"
+  },
+  "outputSVG": {
+    "path": "/Volumes/MacData/repos/spatial-audio-lineage-slidev-v2/public/research/agg-rl-fig1.svg",
+    "sha256": "3e2ebbb2f9150b7b8e97b318385c44047bb32f1368419be9ffbd92ccff614a3c"
+  },
+  "page": 2,
+  "cropBox": {
+    "x": 106,
+    "y": 465,
+    "width": 398,
+    "height": 125,
+    "unit": "PDF pt (1/72 inch)",
+    "origin": "top-left of the unrotated page MediaBox"
+  },
+  "pageGeometry": {
+    "count": 27,
+    "rotation": 0,
+    "mediaBox": [
+      0,
+      0,
+      612,
+      792
+    ],
+    "pdfCropBox": [
+      0,
+      0,
+      612,
+      792
+    ],
+    "width": 612,
+    "height": 792
+  },
+  "command": {
+    "executable": "pdftocairo",
+    "args": [
+      "-svg",
+      "-f",
+      "2",
+      "-l",
+      "2",
+      "-x",
+      "106",
+      "-y",
+      "465",
+      "-W",
+      "398",
+      "-H",
+      "125",
+      "-paperw",
+      "398",
+      "-paperh",
+      "125",
+      "-nocenter",
+      "-noshrink",
+      "/Volumes/MacData/repos/spatial-audio-lineage-slidev-v2/tmp/agg-design-source.pdf",
+      "-"
+    ],
+    "shell": false,
+    "stdout": "Saved byte-for-byte as outputSVG.path"
+  },
+  "rasterInventory": {
+    "command": {
+      "executable": "pdfimages",
+      "args": [
+        "-f",
+        "2",
+        "-l",
+        "2",
+        "-list",
+        "/Volumes/MacData/repos/spatial-audio-lineage-slidev-v2/tmp/agg-design-source.pdf"
+      ]
+    },
+    "pageItemCount": 0,
+    "rows": []
+  },
+  "svgElementCounts": {
+    "image": 0,
+    "path": 150,
+    "use": 173,
+    "text": 0
+  },
+  "notes": [
+    "The source PDF was read only. The SVG byte stream was not rewritten or optimized.",
+    "Text may be outlined as paths and referenced with use elements; SVG does not guarantee editable text.",
+    "SVG image elements may contain raster data; a vector wrapper does not add raster detail.",
+    "The PDF CropBox may clip content within the requested MediaBox-relative rectangle.",
+    "Inspect the final crop visually, including labels, legends, units, captions, and attribution."
+  ]
+}

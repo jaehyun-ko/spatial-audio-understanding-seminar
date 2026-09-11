@@ -1,0 +1,3 @@
+import {chromium} from 'playwright-chromium';
+const browser=await chromium.launch({headless:true});
+try{const page=await browser.newPage({viewport:{width:1312,height:836}});await page.route(/\.(mp4|webm)(\?.*)?$/,route=>route.abort());await page.goto('http://localhost:3037/animations/intro-sequence/review.html',{waitUntil:'networkidle'});await page.waitForFunction(()=>window.introReady===true);await page.evaluate(async()=>{await Promise.all([...document.images].map(i=>i.decode()));await document.fonts.ready});await page.pdf({path:'output/intro-sequence/intro-02-07.pdf',preferCSSPageSize:true,printBackground:true});console.log('Exported six final poster slides');}finally{await browser.close()}

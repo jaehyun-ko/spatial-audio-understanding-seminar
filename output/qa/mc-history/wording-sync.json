@@ -1,0 +1,14 @@
+{
+  "changedParts": [
+    "ppt/notesSlides/notesSlide6.xml",
+    "ppt/notesSlides/notesSlide14.xml",
+    "ppt/notesSlides/notesSlide29.xml",
+    "ppt/slides/slide35.xml",
+    "ppt/notesSlides/notesSlide35.xml",
+    "ppt/notesSlides/notesSlide57.xml",
+    "ppt/notesSlides/notesSlide62.xml",
+    "ppt/notesSlides/notesSlide80.xml",
+    "ppt/notesSlides/notesSlide85.xml"
+  ],
+  "scope": "Slide35 two-character navigation label; speaker-note transitions only. Geometry, images, formulas and numerical results preserved."
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "sourceURL": "https://arxiv.org/pdf/2510.24693v2",
+  "inputPDF": {
+    "path": "/private/tmp/star-part3.pdf",
+    "sha256": "98c5270648e86bf9dd2e436b2b471e15411fc3ba311b30a6ffac9f8c487f17d4"
+  },
+  "outputSVG": {
+    "path": "/Volumes/MacData/repos/spatial-audio-lineage-slidev-v2/public/research/star-caption-comparison.svg",
+    "sha256": "9fd09f80b75fd8604cada6a4c7645b5773d3de87bc5ae225c696870bdb011c65"
+  },
+  "page": 2,
+  "cropBox": {
+    "x": 121,
+    "y": 83,
+    "width": 214,
+    "height": 126,
+    "unit": "PDF pt (1/72 inch)",
+    "origin": "top-left of the unrotated page MediaBox"
+  },
+  "pageGeometry": {
+    "count": 28,
+    "rotation": 0,
+    "mediaBox": [
+      0,
+      0,
+      612,
+      792
+    ],
+    "pdfCropBox": [
+      0,
+      0,
+      612,
+      792
+    ],
+    "width": 612,
+    "height": 792
+  },
+  "command": {
+    "executable": "pdftocairo",
+    "args": [
+      "-svg",
+      "-f",
+      "2",
+      "-l",
+      "2",
+      "-x",
+      "121",
+      "-y",
+      "83",
+      "-W",
+      "214",
+      "-H",
+      "126",
+      "-paperw",
+      "214",
+      "-paperh",
+      "126",
+      "-nocenter",
+      "-noshrink",
+      "/private/tmp/star-part3.pdf",
+      "-"
+    ],
+    "shell": false,
+    "stdout": "Saved byte-for-byte as outputSVG.path"
+  },
+  "rasterInventory": {
+    "command": {
+      "executable": "pdfimages",
+      "args": [
+        "-f",
+        "2",
+        "-l",
+        "2",
+        "-list",
+        "/private/tmp/star-part3.pdf"
+      ]
+    },
+    "pageItemCount": 12,
+    "rows": [
+      "   2     0 image     863   657  rgb     3   8  jpeg   no       685  0   513   514 18.1K 1.1%",
+      "   2     1 smask     863   657  gray    1   8  image  no       685  0   513   514 4043B 0.7%",
+      "   2     2 image     849   739  rgb     3   8  jpeg   no       686  0   993   992 49.4K 2.7%",
+      "   2     3 smask     849   739  gray    1   8  image  no       686  0   993   992 77.5K  13%",
+      "   2     4 image     147   147  rgb     3   8  jpeg   no       687  0   562   562 5901B 9.1%",
+      "   2     5 smask     147   147  gray    1   8  image  no       687  0   562   562 2449B  11%",
+      "   2     6 image     782   658  rgb     3   8  jpeg   no       688  0  1861  1859 55.0K 3.7%",
+      "   2     7 smask     782   658  gray    1   8  image  no       688  0  1861  1859 75.1K  15%",
+      "   2     8 image    1024  1024  rgb     3   8  jpeg   no       689  0  2259  2259 45.4K 1.5%",
+      "   2     9 smask    1024  1024  gray    1   8  image  no       689  0  2259  2259 75.8K 7.4%",
+      "   2    10 image     155   155  rgb     3   8  jpeg   no       690  0   563   563 4214B 5.8%",
+      "   2    11 smask     155   155  gray    1   8  image  no       690  0   563   563 1908B 7.9%"
+    ]
+  },
+  "svgElementCounts": {
+    "image": 2,
+    "path": 104,
+    "use": 231,
+    "text": 0
+  },
+  "notes": [
+    "The source PDF was read only. The SVG byte stream was not rewritten or optimized.",
+    "Text may be outlined as paths and referenced with use elements; SVG does not guarantee editable text.",
+    "SVG image elements may contain raster data; a vector wrapper does not add raster detail.",
+    "The PDF CropBox may clip content within the requested MediaBox-relative rectangle.",
+    "Inspect the final crop visually, including labels, legends, units, captions, and attribution."
+  ]
+}

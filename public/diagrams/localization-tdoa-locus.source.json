@@ -1,0 +1,322 @@
+{
+  "kind": "authored scientific teaching figure from direct-path synthetic signals",
+  "not": "not measured room data; not published experimental numbers; not learned Neural-SRP output",
+  "coordinates": "height-fixed 2D section; microphone and source coordinates in metres",
+  "microphones_m": [
+    [
+      -0.65,
+      0.0
+    ],
+    [
+      0.65,
+      0.0
+    ],
+    [
+      -0.5,
+      2.8
+    ]
+  ],
+  "source_m": [
+    0.6,
+    1.6
+  ],
+  "sound_speed_m_s": 343.0,
+  "sign": "tau_ij=t_i-t_j=(distance_i-distance_j)/c; tau21=t2-t1",
+  "signal": {
+    "fs_hz": 16000,
+    "samples": 8192,
+    "seed": 20260911,
+    "burst_center_s": 0.08,
+    "gaussian_envelope_sigma_s": 0.006,
+    "passband_hz": [
+      100,
+      4000
+    ],
+    "fractional_delay": "exact spectral circular shift, 512 ms period",
+    "gcc": "IFFT[X_i conj(X_j)/abs(X_i conj(X_j))] on retained passband; zero otherwise",
+    "interpolation": 16,
+    "normalization": "2 times passband-bin count divided by inverse FFT length",
+    "data_file": "localization-simulation.npz"
+  },
+  "true_pair_delays_ms": {
+    "21": -1.2525160089401841,
+    "31": -1.1735043463986143,
+    "32": 0.07901166254156972
+  },
+  "sources": [
+    {
+      "title": "Neural-SRP, §III-A, Eqs. 3–6",
+      "url": "https://arxiv.org/html/2403.09455v1"
+    },
+    {
+      "title": "MathWorks, gccphat",
+      "url": "https://www.mathworks.com/help/phased/ref/gccphat.html"
+    }
+  ],
+  "labels": [
+    {
+      "text": "한 지연에 대응하는 위치들",
+      "bounds": [
+        116.5,
+        359.68,
+        387.5,
+        398.32
+      ]
+    },
+    {
+      "text": "거리 차이 $d_1-d_2$는 같다",
+      "bounds": [
+        693.5,
+        359.68,
+        954.5,
+        398.32
+      ]
+    },
+    {
+      "text": "x [m]",
+      "bounds": [
+        447.5,
+        36.69,
+        492.5,
+        65.31
+      ]
+    },
+    {
+      "text": "y [m]",
+      "bounds": [
+        16.0,
+        322.69,
+        62.0,
+        351.31
+      ]
+    },
+    {
+      "text": "높이를 고정한 2D 단면",
+      "bounds": [
+        155.0,
+        0.97,
+        341.0,
+        31.03
+      ]
+    },
+    {
+      "text": "$p_a$",
+      "bounds": [
+        561.0,
+        286.96,
+        587.0,
+        327.04
+      ]
+    },
+    {
+      "text": "$d_1$",
+      "bounds": [
+        593.0,
+        305.69,
+        611.0,
+        334.31
+      ]
+    },
+    {
+      "text": "$d_2$",
+      "bounds": [
+        593.0,
+        277.69,
+        611.0,
+        306.31
+      ]
+    },
+    {
+      "text": "",
+      "bounds": [
+        717.88,
+        292.11,
+        768.38,
+        319.89
+      ]
+    },
+    {
+      "text": "0.430 m",
+      "bounds": [
+        703.5,
+        329.97,
+        779.98,
+        360.03
+      ]
+    },
+    {
+      "text": "$p_s$",
+      "bounds": [
+        562.5,
+        187.96,
+        585.5,
+        228.04
+      ]
+    },
+    {
+      "text": "$d_1$",
+      "bounds": [
+        593.0,
+        206.69,
+        611.0,
+        235.31
+      ]
+    },
+    {
+      "text": "$d_2$",
+      "bounds": [
+        593.0,
+        178.69,
+        611.0,
+        207.31
+      ]
+    },
+    {
+      "text": "",
+      "bounds": [
+        830.27,
+        193.11,
+        880.77,
+        220.89
+      ]
+    },
+    {
+      "text": "0.430 m",
+      "bounds": [
+        815.89,
+        230.97,
+        892.38,
+        261.03
+      ]
+    },
+    {
+      "text": "$p_b$",
+      "bounds": [
+        561.0,
+        88.96,
+        587.0,
+        129.04
+      ]
+    },
+    {
+      "text": "$d_1$",
+      "bounds": [
+        593.0,
+        107.69,
+        611.0,
+        136.31
+      ]
+    },
+    {
+      "text": "$d_2$",
+      "bounds": [
+        593.0,
+        79.69,
+        611.0,
+        108.31
+      ]
+    },
+    {
+      "text": "",
+      "bounds": [
+        956.11,
+        94.11,
+        1006.61,
+        121.89
+      ]
+    },
+    {
+      "text": "0.430 m",
+      "bounds": [
+        941.73,
+        131.97,
+        1018.21,
+        162.03
+      ]
+    },
+    {
+      "text": "$\\tau_{21}=(d_2-d_1)/c=$ -1.253 ms",
+      "bounds": [
+        658.0,
+        12.96,
+        1004.0,
+        53.04
+      ]
+    },
+    {
+      "text": "$p_a$",
+      "bounds": [
+        278.53,
+        140.11,
+        302.53,
+        166.5
+      ]
+    },
+    {
+      "text": "$p_s$",
+      "bounds": [
+        302.87,
+        221.37,
+        324.87,
+        247.76
+      ]
+    },
+    {
+      "text": "$p_b$",
+      "bounds": [
+        330.13,
+        302.64,
+        354.13,
+        329.03
+      ]
+    },
+    {
+      "text": "$M_1$",
+      "bounds": [
+        170.13,
+        61.46,
+        199.13,
+        85.07
+      ]
+    },
+    {
+      "text": "$M_2$",
+      "bounds": [
+        275.77,
+        61.46,
+        304.77,
+        85.07
+      ]
+    }
+  ],
+  "alternative_positions_m": [
+    [
+      0.3004632017501266,
+      0.6
+    ],
+    [
+      0.6,
+      1.6
+    ],
+    [
+      0.9353734865270427,
+      2.6
+    ]
+  ],
+  "distances_for_rows_m": [
+    [
+      1.1240019118671916,
+      0.6943889208007086
+    ],
+    [
+      2.0303940504246953,
+      1.6007810593582124
+    ],
+    [
+      3.045227264389788,
+      2.615614273323305
+    ]
+  ],
+  "equal_distance_difference_m": -0.429612991066483,
+  "physical_locus": "positive-x hyperbola branch for d2-d1<0; height-fixed problem"
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "old": 76,
+    "new": 23,
+    "key": "o39",
+    "status": "inspect difference",
+    "differenceBBox": [
+      309,
+      457,
+      787,
+      537
+    ],
+    "absoluteBBox": [
+      309,
+      602,
+      787,
+      682
+    ],
+    "changedPixels": 683,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 74,
+    "new": 27,
+    "key": "o60",
+    "status": "inspect difference",
+    "differenceBBox": [
+      204,
+      457,
+      590,
+      537
+    ],
+    "absoluteBBox": [
+      204,
+      602,
+      590,
+      682
+    ],
+    "changedPixels": 718,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 67,
+    "new": 30,
+    "key": "o47",
+    "status": "inspect difference",
+    "differenceBBox": [
+      292,
+      458,
+      315,
+      481
+    ],
+    "absoluteBBox": [
+      292,
+      603,
+      315,
+      626
+    ],
+    "changedPixels": 58,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 75,
+    "new": 39,
+    "key": "o61",
+    "status": "inspect difference",
+    "differenceBBox": [
+      239,
+      457,
+      890,
+      537
+    ],
+    "absoluteBBox": [
+      239,
+      602,
+      890,
+      682
+    ],
+    "changedPixels": 2582,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 20,
+    "new": 52,
+    "key": "o25",
+    "status": "inspect difference",
+    "differenceBBox": [
+      361,
+      532,
+      411,
+      537
+    ],
+    "absoluteBBox": [
+      361,
+      677,
+      411,
+      682
+    ],
+    "changedPixels": 82,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 51,
+    "new": 55,
+    "key": "o14",
+    "status": "inspect difference",
+    "differenceBBox": [
+      329,
+      533,
+      457,
+      537
+    ],
+    "absoluteBBox": [
+      329,
+      678,
+      457,
+      682
+    ],
+    "changedPixels": 194,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 52,
+    "new": 56,
+    "key": "o16",
+    "status": "inspect difference",
+    "differenceBBox": [
+      195,
+      533,
+      540,
+      537
+    ],
+    "absoluteBBox": [
+      195,
+      678,
+      540,
+      682
+    ],
+    "changedPixels": 439,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 55,
+    "new": 59,
+    "key": "o24",
+    "status": "inspect difference",
+    "differenceBBox": [
+      301,
+      532,
+      324,
+      537
+    ],
+    "absoluteBBox": [
+      301,
+      677,
+      324,
+      682
+    ],
+    "changedPixels": 58,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 56,
+    "new": 60,
+    "key": "o21",
+    "status": "inspect difference",
+    "differenceBBox": [
+      562,
+      457,
+      711,
+      482
+    ],
+    "absoluteBBox": [
+      562,
+      602,
+      711,
+      627
+    ],
+    "changedPixels": 788,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 57,
+    "new": 61,
+    "key": "o30",
+    "status": "inspect difference",
+    "differenceBBox": [
+      164,
+      457,
+      391,
+      537
+    ],
+    "absoluteBBox": [
+      164,
+      602,
+      391,
+      682
+    ],
+    "changedPixels": 227,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 22,
+    "new": 62,
+    "key": "o32",
+    "status": "inspect difference",
+    "differenceBBox": [
+      160,
+      458,
+      708,
+      537
+    ],
+    "absoluteBBox": [
+      160,
+      603,
+      708,
+      682
+    ],
+    "changedPixels": 600,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 23,
+    "new": 63,
+    "key": "o34",
+    "status": "inspect difference",
+    "differenceBBox": [
+      363,
+      457,
+      493,
+      537
+    ],
+    "absoluteBBox": [
+      363,
+      602,
+      493,
+      682
+    ],
+    "changedPixels": 282,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 59,
+    "new": 66,
+    "key": "o27",
+    "status": "inspect difference",
+    "differenceBBox": [
+      505,
+      457,
+      649,
+      482
+    ],
+    "absoluteBBox": [
+      505,
+      602,
+      649,
+      627
+    ],
+    "changedPixels": 312,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 60,
+    "new": 67,
+    "key": "o33",
+    "status": "inspect difference",
+    "differenceBBox": [
+      669,
+      457,
+      715,
+      482
+    ],
+    "absoluteBBox": [
+      669,
+      602,
+      715,
+      627
+    ],
+    "changedPixels": 349,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 62,
+    "new": 69,
+    "key": "o37",
+    "status": "inspect difference",
+    "differenceBBox": [
+      497,
+      457,
+      644,
+      482
+    ],
+    "absoluteBBox": [
+      497,
+      602,
+      644,
+      627
+    ],
+    "changedPixels": 344,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 63,
+    "new": 70,
+    "key": "o65",
+    "status": "inspect difference",
+    "differenceBBox": [
+      325,
+      457,
+      409,
+      482
+    ],
+    "absoluteBBox": [
+      325,
+      602,
+      409,
+      627
+    ],
+    "changedPixels": 262,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 64,
+    "new": 71,
+    "key": "o66",
+    "status": "inspect difference",
+    "differenceBBox": [
+      371,
+      457,
+      422,
+      482
+    ],
+    "absoluteBBox": [
+      371,
+      602,
+      422,
+      627
+    ],
+    "changedPixels": 286,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 65,
+    "new": 74,
+    "key": "o45",
+    "status": "inspect difference",
+    "differenceBBox": [
+      334,
+      457,
+      788,
+      482
+    ],
+    "absoluteBBox": [
+      334,
+      602,
+      788,
+      627
+    ],
+    "changedPixels": 542,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 66,
+    "new": 75,
+    "key": "o46",
+    "status": "inspect difference",
+    "differenceBBox": [
+      335,
+      457,
+      752,
+      482
+    ],
+    "absoluteBBox": [
+      335,
+      602,
+      752,
+      627
+    ],
+    "changedPixels": 685,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 69,
+    "new": 77,
+    "key": "o50",
+    "status": "inspect difference",
+    "differenceBBox": [
+      223,
+      457,
+      549,
+      482
+    ],
+    "absoluteBBox": [
+      223,
+      602,
+      549,
+      627
+    ],
+    "changedPixels": 384,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 70,
+    "new": 78,
+    "key": "o52",
+    "status": "inspect difference",
+    "differenceBBox": [
+      542,
+      464,
+      597,
+      480
+    ],
+    "absoluteBBox": [
+      542,
+      609,
+      597,
+      625
+    ],
+    "changedPixels": 255,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 71,
+    "new": 79,
+    "key": "o56",
+    "status": "inspect difference",
+    "differenceBBox": [
+      666,
+      298,
+      688,
+      323
+    ],
+    "absoluteBBox": [
+      666,
+      443,
+      688,
+      468
+    ],
+    "changedPixels": 155,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 72,
+    "new": 80,
+    "key": "o59",
+    "status": "inspect difference",
+    "differenceBBox": [
+      333,
+      533,
+      598,
+      537
+    ],
+    "absoluteBBox": [
+      333,
+      678,
+      598,
+      682
+    ],
+    "changedPixels": 380,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 73,
+    "new": 81,
+    "key": "o62",
+    "status": "inspect difference",
+    "differenceBBox": [
+      171,
+      457,
+      595,
+      482
+    ],
+    "absoluteBBox": [
+      171,
+      602,
+      595,
+      627
+    ],
+    "changedPixels": 416,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 77,
+    "new": 82,
+    "key": "o69",
+    "status": "inspect difference",
+    "differenceBBox": [
+      419,
+      457,
+      485,
+      482
+    ],
+    "absoluteBBox": [
+      419,
+      602,
+      485,
+      627
+    ],
+    "changedPixels": 363,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 78,
+    "new": 83,
+    "key": "o70",
+    "status": "inspect difference",
+    "differenceBBox": [
+      291,
+      457,
+      312,
+      482
+    ],
+    "absoluteBBox": [
+      291,
+      602,
+      312,
+      627
+    ],
+    "changedPixels": 128,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 79,
+    "new": 84,
+    "key": "o72",
+    "status": "inspect difference",
+    "differenceBBox": [
+      372,
+      457,
+      515,
+      481
+    ],
+    "absoluteBBox": [
+      372,
+      602,
+      515,
+      626
+    ],
+    "changedPixels": 275,
+    "bodyTextGeometryStyleEqual": true
+  },
+  {
+    "old": 80,
+    "new": 85,
+    "key": "o76",
+    "status": "inspect difference",
+    "differenceBBox": [
+      566,
+      457,
+      588,
+      482
+    ],
+    "absoluteBBox": [
+      566,
+      602,
+      588,
+      627
+    ],
+    "changedPixels": 185,
+    "bodyTextGeometryStyleEqual": true
+  }
+]
